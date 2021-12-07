@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>7</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>294</x>
-      <y>574</y>
-      <w>70</w>
-      <h>21</h>
+      <x>336</x>
+      <y>656</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:System_</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>84</x>
-      <y>539</y>
-      <w>84</w>
-      <h>77</h>
+      <x>96</x>
+      <y>616</y>
+      <w>96</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>Seles Assistant</panel_attributes>
     <additional_attributes/>
@@ -26,10 +26,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>322</x>
-      <y>595</y>
-      <w>21</w>
-      <h>308</h>
+      <x>368</x>
+      <y>680</y>
+      <w>24</w>
+      <h>352</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;420.0</additional_attributes>
@@ -37,10 +37,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>119</x>
-      <y>602</y>
-      <w>21</w>
-      <h>301</h>
+      <x>136</x>
+      <y>688</y>
+      <w>24</w>
+      <h>344</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;410.0</additional_attributes>
@@ -48,10 +48,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>119</x>
-      <y>630</y>
-      <w>224</w>
-      <h>35</h>
+      <x>136</x>
+      <y>720</y>
+      <w>256</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 create order()
@@ -61,10 +61,10 @@ create order()
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>119</x>
-      <y>651</y>
-      <w>224</w>
-      <h>28</h>
+      <x>136</x>
+      <y>744</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 </panel_attributes>
@@ -73,10 +73,10 @@ create order()
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>119</x>
-      <y>672</y>
-      <w>224</w>
-      <h>28</h>
+      <x>136</x>
+      <y>768</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 findCostumer(phoneNumber)</panel_attributes>
@@ -85,10 +85,10 @@ findCostumer(phoneNumber)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>119</x>
-      <y>693</y>
-      <w>224</w>
-      <h>28</h>
+      <x>136</x>
+      <y>792</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 costumer</panel_attributes>
@@ -97,10 +97,10 @@ costumer</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>119</x>
-      <y>714</y>
-      <w>224</w>
-      <h>28</h>
+      <x>136</x>
+      <y>816</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 addItem(barcode)</panel_attributes>
@@ -109,10 +109,10 @@ addItem(barcode)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>119</x>
-      <y>735</y>
-      <w>224</w>
-      <h>28</h>
+      <x>136</x>
+      <y>840</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Item</panel_attributes>
@@ -121,10 +121,10 @@ Item</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>112</x>
-      <y>763</y>
-      <w>224</w>
-      <h>28</h>
+      <x>128</x>
+      <y>872</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 setShipmentInfo(date,adress)</panel_attributes>
@@ -133,10 +133,10 @@ setShipmentInfo(date,adress)</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>112</x>
-      <y>714</y>
-      <w>231</w>
-      <h>42</h>
+      <x>128</x>
+      <y>816</y>
+      <w>264</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>
 </panel_attributes>
@@ -145,10 +145,10 @@ setShipmentInfo(date,adress)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>119</x>
-      <y>805</y>
-      <w>224</w>
-      <h>28</h>
+      <x>136</x>
+      <y>920</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 finalizeOrder()</panel_attributes>
@@ -157,10 +157,10 @@ finalizeOrder()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>119</x>
-      <y>826</y>
-      <w>224</w>
-      <h>28</h>
+      <x>136</x>
+      <y>944</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 ok</panel_attributes>
@@ -169,10 +169,10 @@ ok</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>119</x>
-      <y>784</y>
-      <w>224</w>
-      <h>28</h>
+      <x>136</x>
+      <y>896</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 ok</panel_attributes>
@@ -181,10 +181,10 @@ ok</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>392</x>
-      <y>588</y>
-      <w>259</w>
-      <h>77</h>
+      <x>448</x>
+      <y>672</y>
+      <w>296</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>Operationskontrakt: findCostumer(phoneNumber)
 --
@@ -199,10 +199,10 @@ c er tilføjet til ordren
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>392</x>
-      <y>679</y>
-      <w>259</w>
-      <h>77</h>
+      <x>448</x>
+      <y>776</y>
+      <w>296</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>Operationskontrakt: addItem(barcode)
 --
@@ -216,10 +216,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>343</x>
-      <y>7</y>
-      <w>70</w>
-      <h>21</h>
+      <x>392</x>
+      <y>8</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:orderUI</panel_attributes>
     <additional_attributes/>
@@ -227,10 +227,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>343</x>
-      <y>161</y>
-      <w>70</w>
-      <h>21</h>
+      <x>392</x>
+      <y>184</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:orderCtr</panel_attributes>
     <additional_attributes/>
@@ -238,10 +238,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>217</x>
-      <y>308</y>
-      <w>70</w>
-      <h>21</h>
+      <x>248</x>
+      <y>352</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>order:Order</panel_attributes>
     <additional_attributes/>
@@ -249,10 +249,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>427</x>
-      <y>301</y>
-      <w>77</w>
-      <h>21</h>
+      <x>488</x>
+      <y>344</y>
+      <w>88</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:orderContainer</panel_attributes>
     <additional_attributes/>
@@ -260,10 +260,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>665</x>
-      <y>161</y>
-      <w>70</w>
-      <h>21</h>
+      <x>760</x>
+      <y>184</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:personCtr</panel_attributes>
     <additional_attributes/>
@@ -271,10 +271,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>651</x>
-      <y>301</y>
-      <w>98</w>
-      <h>21</h>
+      <x>744</x>
+      <y>344</y>
+      <w>112</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:personContainer</panel_attributes>
     <additional_attributes/>
@@ -283,9 +283,9 @@ Produktet er tilføjet til salget som i
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>161</y>
-      <w>70</w>
-      <h>21</h>
+      <y>184</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:itemCtr</panel_attributes>
     <additional_attributes/>
@@ -294,9 +294,9 @@ Produktet er tilføjet til salget som i
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>308</y>
-      <w>70</w>
-      <h>21</h>
+      <y>352</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:itemContainer</panel_attributes>
     <additional_attributes/>
@@ -304,10 +304,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>504</x>
-      <y>427</y>
-      <w>70</w>
-      <h>21</h>
+      <x>576</x>
+      <y>488</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:Costumer</panel_attributes>
     <additional_attributes/>
@@ -316,9 +316,9 @@ Produktet er tilføjet til salget som i
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>427</y>
-      <w>70</w>
-      <h>21</h>
+      <y>488</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:Item</panel_attributes>
     <additional_attributes/>
@@ -326,10 +326,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>168</x>
+      <x>192</x>
       <y>0</y>
-      <w>189</w>
-      <h>77</h>
+      <w>216</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 1:createOrder
@@ -343,10 +343,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>371</x>
-      <y>21</y>
-      <w>294</w>
-      <h>154</h>
+      <x>424</x>
+      <y>24</y>
+      <w>336</w>
+      <h>176</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1: order=createOrder():Order
@@ -360,10 +360,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>245</x>
-      <y>175</y>
-      <w>224</w>
-      <h>147</h>
+      <x>280</x>
+      <y>200</y>
+      <w>256</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.1: order=&lt;&lt;create&gt;&gt;():Order
@@ -377,10 +377,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>63</x>
-      <y>154</y>
-      <w>294</w>
-      <h>28</h>
+      <x>72</x>
+      <y>176</y>
+      <w>336</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1: item = addItem(barcode : String) : Item</panel_attributes>
@@ -389,10 +389,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>28</x>
-      <y>175</y>
-      <w>224</w>
-      <h>147</h>
+      <x>32</x>
+      <y>200</y>
+      <w>256</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1.1: item = addItem(barcode : String) : Item</panel_attributes>
@@ -401,10 +401,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>28</x>
-      <y>322</y>
-      <w>210</w>
-      <h>119</h>
+      <x>32</x>
+      <y>368</y>
+      <w>240</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1.1.1: barcode= *[i=1..n]addItem():String</panel_attributes>
@@ -413,10 +413,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>525</x>
-      <y>315</y>
-      <w>259</w>
-      <h>126</h>
+      <x>600</x>
+      <y>360</y>
+      <w>296</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1.1.1: phoneNumber= *[i=1..n]findCostumer():String</panel_attributes>
@@ -425,10 +425,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>371</x>
-      <y>175</y>
-      <w>231</w>
-      <h>140</h>
+      <x>424</x>
+      <y>200</y>
+      <w>264</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.2:addOrder(order : Order)</panel_attributes>
@@ -437,10 +437,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>406</x>
-      <y>154</y>
-      <w>273</w>
-      <h>28</h>
+      <x>464</x>
+      <y>176</y>
+      <w>312</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1:costumer = findCostumer(phoneNumber: String)</panel_attributes>
@@ -449,10 +449,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>693</x>
-      <y>175</y>
-      <w>294</w>
-      <h>140</h>
+      <x>792</x>
+      <y>200</y>
+      <w>336</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1.1: costumer = findCostumer(phoneNumber : String) : Item</panel_attributes>
@@ -461,10 +461,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>1085</x>
-      <y>161</y>
-      <w>889</w>
-      <h>140</h>
+      <x>1240</x>
+      <y>184</y>
+      <w>1016</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>controllerlayer
 --
@@ -476,10 +476,10 @@ fg=red</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>1085</x>
-      <y>21</y>
-      <w>889</w>
-      <h>126</h>
+      <x>1240</x>
+      <y>24</y>
+      <w>1016</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>tuilayer
 --
@@ -491,10 +491,10 @@ fg=red</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>1085</x>
-      <y>301</y>
-      <w>889</w>
-      <h>420</h>
+      <x>1240</x>
+      <y>344</y>
+      <w>1016</w>
+      <h>480</h>
     </coordinates>
     <panel_attributes>modellayer
 --
@@ -506,10 +506,10 @@ fg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1631</x>
-      <y>35</y>
-      <w>315</w>
-      <h>112</h>
+      <x>1864</x>
+      <y>40</y>
+      <w>360</w>
+      <h>128</h>
     </coordinates>
     <panel_attributes>PersonUI
 -
@@ -526,10 +526,10 @@ fg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1386</x>
-      <y>189</y>
-      <w>175</w>
-      <h>105</h>
+      <x>1584</x>
+      <y>216</y>
+      <w>200</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>OrderController
 -
@@ -546,10 +546,10 @@ shipmentZip : String, shipmentCity : String) : Order
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1386</x>
-      <y>336</y>
-      <w>161</w>
-      <h>119</h>
+      <x>1584</x>
+      <y>384</y>
+      <w>184</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>                                                 1
 OrderContainer
@@ -566,10 +566,10 @@ _+getInstance() : OrderContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1456</x>
-      <y>126</y>
-      <w>21</w>
-      <h>77</h>
+      <x>1664</x>
+      <y>144</y>
+      <w>24</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
@@ -577,10 +577,10 @@ _+getInstance() : OrderContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1456</x>
-      <y>287</y>
-      <w>21</w>
-      <h>63</h>
+      <x>1664</x>
+      <y>328</y>
+      <w>24</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
@@ -588,10 +588,10 @@ _+getInstance() : OrderContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1456</x>
-      <y>448</y>
-      <w>21</w>
-      <h>49</h>
+      <x>1664</x>
+      <y>512</y>
+      <w>24</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -599,10 +599,10 @@ _+getInstance() : OrderContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1400</x>
-      <y>483</y>
-      <w>133</w>
-      <h>119</h>
+      <x>1600</x>
+      <y>552</y>
+      <w>152</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>orders[i] : Order
 -
@@ -622,10 +622,10 @@ _+getInstance() : OrderContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1393</x>
-      <y>56</y>
-      <w>161</w>
-      <h>77</h>
+      <x>1592</x>
+      <y>64</y>
+      <w>184</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>OrderUI
 -
@@ -638,10 +638,10 @@ _+getInstance() : OrderContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1631</x>
-      <y>182</y>
-      <w>315</w>
-      <h>119</h>
+      <x>1864</x>
+      <y>208</y>
+      <w>360</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>PersonController
 -
@@ -658,10 +658,10 @@ _+getInstance() : OrderContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1778</x>
-      <y>140</y>
-      <w>21</w>
-      <h>56</h>
+      <x>2032</x>
+      <y>160</y>
+      <w>24</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
@@ -669,10 +669,10 @@ _+getInstance() : OrderContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1631</x>
-      <y>322</y>
-      <w>315</w>
-      <h>140</h>
+      <x>1864</x>
+      <y>368</y>
+      <w>360</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>                                                 1
 PersonContainer
@@ -692,10 +692,10 @@ _+getInstance() : PersonContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1778</x>
-      <y>294</y>
-      <w>21</w>
-      <h>42</h>
+      <x>2032</x>
+      <y>336</y>
+      <w>24</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -703,10 +703,10 @@ _+getInstance() : PersonContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1778</x>
-      <y>455</y>
-      <w>21</w>
-      <h>35</h>
+      <x>2032</x>
+      <y>520</y>
+      <w>24</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -714,10 +714,10 @@ _+getInstance() : PersonContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1708</x>
-      <y>476</y>
-      <w>147</w>
-      <h>98</h>
+      <x>1952</x>
+      <y>544</y>
+      <w>168</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>Person
 -
@@ -735,29 +735,32 @@ _+getInstance() : PersonContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1120</x>
-      <y>189</y>
-      <w>175</w>
-      <h>105</h>
+      <x>1280</x>
+      <y>216</y>
+      <w>200</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>ItemController
 -
 -itemContainer : ItemContainer
 -item : Item
 -
-+findLP(title : String)
-+addCopyToLP(copy : Copy, title : String)
-+getAllLPs()
-+addLP(barcode : String, title : String, artist : String, publicationDate : String)</panel_attributes>
++findItem(barcode : String)
++creayeItem(id : String, name : String,
+description : String, barcode : String,
+location : String, placement : String,
+quantity : String, price : double)
+
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1288</x>
-      <y>238</y>
-      <w>112</w>
-      <h>21</h>
+      <x>1472</x>
+      <y>272</y>
+      <w>128</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
@@ -765,10 +768,10 @@ _+getInstance() : PersonContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1127</x>
-      <y>336</y>
-      <w>161</w>
-      <h>119</h>
+      <x>1288</x>
+      <y>384</y>
+      <w>184</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>                                                 1
 ItemContainer
@@ -786,10 +789,10 @@ _+getInstance() : ItemContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1197</x>
-      <y>287</y>
-      <w>21</w>
-      <h>63</h>
+      <x>1368</x>
+      <y>328</y>
+      <w>24</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
@@ -797,14 +800,13 @@ _+getInstance() : ItemContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1120</x>
-      <y>469</y>
-      <w>175</w>
-      <h>140</h>
+      <x>1280</x>
+      <y>536</y>
+      <w>200</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>items[i] : Item
 -
--id : String
 -name : String
 -id : String
 -description : String
@@ -813,7 +815,7 @@ _+getInstance() : ItemContainer_
 -placement : String
 -quantity : double
 -price : double
--id : String
+
 -
 
 
@@ -823,10 +825,10 @@ _+getInstance() : ItemContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1197</x>
-      <y>448</y>
-      <w>21</w>
-      <h>35</h>
+      <x>1368</x>
+      <y>512</y>
+      <w>24</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -834,10 +836,10 @@ _+getInstance() : ItemContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1554</x>
-      <y>238</y>
-      <w>91</w>
-      <h>21</h>
+      <x>1776</x>
+      <y>272</y>
+      <w>104</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
@@ -845,10 +847,10 @@ _+getInstance() : ItemContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>777</x>
-      <y>434</y>
-      <w>77</w>
-      <h>21</h>
+      <x>888</x>
+      <y>496</y>
+      <w>88</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:SalesAssistant</panel_attributes>
     <additional_attributes/>
@@ -856,10 +858,10 @@ _+getInstance() : ItemContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1680</x>
-      <y>567</y>
-      <w>112</w>
-      <h>35</h>
+      <x>1920</x>
+      <y>648</y>
+      <w>128</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;140.0;10.0</additional_attributes>
@@ -867,10 +869,10 @@ _+getInstance() : ItemContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1582</x>
-      <y>588</y>
-      <w>182</w>
-      <h>126</h>
+      <x>1808</x>
+      <y>672</y>
+      <w>208</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>Costumer
 -
@@ -888,10 +890,10 @@ city : String)</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1771</x>
-      <y>588</y>
-      <w>182</w>
-      <h>126</h>
+      <x>2024</x>
+      <y>672</y>
+      <w>208</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>SalesAssistant
 -
@@ -909,10 +911,10 @@ city : String)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1771</x>
-      <y>567</y>
-      <w>105</w>
-      <h>35</h>
+      <x>2024</x>
+      <y>648</y>
+      <w>120</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>130.0;30.0;10.0;10.0</additional_attributes>
