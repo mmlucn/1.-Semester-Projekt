@@ -494,7 +494,7 @@ fg=red</panel_attributes>
       <x>1085</x>
       <y>301</y>
       <w>889</w>
-      <h>406</h>
+      <h>420</h>
     </coordinates>
     <panel_attributes>modellayer
 --
@@ -602,7 +602,7 @@ _+getInstance() : OrderContainer_
       <x>1400</x>
       <y>483</y>
       <w>133</w>
-      <h>182</h>
+      <h>119</h>
     </coordinates>
     <panel_attributes>orders[i] : Order
 -
@@ -677,7 +677,8 @@ _+getInstance() : OrderContainer_
     <panel_attributes>                                                 1
 PersonContainer
 -
--Persons: ArrayList&lt;person&gt;
+-costumers : ArrayList&lt;person&gt;
+-salesAssistants : ArrayList&lt;Person&gt; 
 _-instance : PersonContainer_
 -
 -&lt;&lt;constructor&gt;&gt; PersonContainer()
@@ -702,35 +703,32 @@ _+getInstance() : PersonContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1694</x>
+      <x>1778</x>
       <y>455</y>
-      <w>105</w>
-      <h>49</h>
+      <w>21</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;130.0;10.0</additional_attributes>
+    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1631</x>
-      <y>490</y>
+      <x>1708</x>
+      <y>476</y>
       <w>147</w>
-      <h>168</h>
+      <h>98</h>
     </coordinates>
-    <panel_attributes>costumers[i] : Person
+    <panel_attributes>Person
 -
--costumers : ArrayList&lt;Person&gt;
+-id : String
 -firstName : String
 -lastName: String
 -phoneNumber : String
 -address : String
 -zipCode : String
 -city : String
-companyName : String
-companyCode : String
 
--
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -802,7 +800,7 @@ _+getInstance() : ItemContainer_
       <x>1120</x>
       <y>469</y>
       <w>175</w>
-      <h>154</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes>items[i] : Item
 -
@@ -836,24 +834,13 @@ _+getInstance() : ItemContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1589</x>
+      <x>1554</x>
       <y>238</y>
-      <w>56</w>
+      <w>91</w>
       <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1778</x>
-      <y>455</y>
-      <w>105</w>
-      <h>49</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>130.0;50.0;10.0;10.0</additional_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -865,5 +852,69 @@ _+getInstance() : ItemContainer_
     </coordinates>
     <panel_attributes>:SalesAssistant</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1680</x>
+      <y>567</y>
+      <w>112</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;30.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1582</x>
+      <y>588</y>
+      <w>182</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Costumer
+-
+costumers : ArrayList&lt;Person&gt;
+companyName : String
+companyCode : String
+-
+-&lt;&lt;constructor&gt;&gt; Costumer()
+super(id : String, firstName : String,
+lastName: String, phoneNumber : String,
+address : String, zipCode : String,
+city : String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1771</x>
+      <y>588</y>
+      <w>182</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>SalesAssistant
+-
+-salesAssistants : ArrayList&lt;Person&gt;
+department : String
+totalSales : double
+-
+-&lt;&lt;constructor&gt;&gt; SalesAssistant()
+super(id : String, firstName : String,
+lastName: String, phoneNumber : String,
+address : String, zipCode : String,
+city : String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1771</x>
+      <y>567</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>130.0;30.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
