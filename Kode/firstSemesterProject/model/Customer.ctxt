@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Customer
-comment1.params=id\ firstName\ lastName\ address\ zipCode\ city\ phoneNumber\ companyName\ companyCode
-comment1.target=Customer(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=firstName\ lastName\ address\ zipCode\ city\ phoneNumber\ companyName\ companyCode
+comment1.target=Customer(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
 comment2.params=
 comment2.target=java.lang.String\ getCompanyName()
 comment3.params=

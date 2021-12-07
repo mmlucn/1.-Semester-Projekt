@@ -9,7 +9,7 @@ public class Person{
     private String city;
     private String phoneNumber;
 
-    public Person(String id, String firstName, String lastName, String address, 
+    public Person(String firstName, String lastName, String address, 
     String zipCode, String city, String phoneNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -17,6 +17,7 @@ public class Person{
         this.zipCode = zipCode;
         this.city = city;
         this.phoneNumber = phoneNumber;
+        this.id = phoneNumber;
     }
     
     public void setZipCode(String zipCode) {

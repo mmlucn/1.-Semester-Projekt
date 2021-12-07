@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=PersonController
+comment1.params=
+comment1.target=PersonController()
+comment2.params=firstName\ lastName\ address\ zipCode\ city\ phoneNumber\ companyName\ companyCode
+comment2.target=void\ createCustomer(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.params=phoneNumber
+comment3.target=model.Customer\ findCustomer(java.lang.String)
+comment4.params=customerToUpdate\ address\ zipCode\ city\ phoneNumber
+comment4.target=void\ updateCustomer(model.Customer,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.params=phoneNumber
+comment5.target=void\ deleteCustomer(java.lang.String)
+comment6.params=firstName\ lastName\ address\ zipCode\ city\ phoneNumber\ department
+comment6.target=void\ createSalesAssistent(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment7.params=id
+comment7.target=model.SalesAssistent\ findSalesAssistent(java.lang.String)
+comment8.params=salesAssistentToUpdate\ address\ zipCode\ city\ phoneNumber\ department
+comment8.target=void\ updateSalesAssitent(model.SalesAssistent,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment9.params=id
+comment9.target=void\ deleteSalesAssistent(java.lang.String)
+numComments=10

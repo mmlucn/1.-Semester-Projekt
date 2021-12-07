@@ -1,4 +1,4 @@
-package Kode.firstSemesterProject.model;
+package model;
 
 public class OrderLine {
     public OrderLine() {

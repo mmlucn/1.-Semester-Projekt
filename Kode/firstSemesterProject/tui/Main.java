@@ -1,4 +1,4 @@
-package Kode.firstSemesterProject.tui;
+package tui;
 
 public class Main {
     

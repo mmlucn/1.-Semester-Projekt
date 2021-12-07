@@ -4,10 +4,10 @@ public class Customer extends Person{
     private String companyName;
     private String companyCode;
 
-    public Customer(String id, String firstName, String lastName, String address, 
+    public Customer(String firstName, String lastName, String address, 
     String zipCode, String city, String phoneNumber, String companyName, String companyCode)
     {
-        super(id, firstName, lastName, address, zipCode, city, phoneNumber);
+        super(firstName, lastName, address, zipCode, city, phoneNumber);
         this.companyName = companyName;
         this.companyCode = companyCode;
     }

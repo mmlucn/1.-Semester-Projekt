@@ -5,12 +5,12 @@ public class SalesAssistent extends Person{
     private String department;
     private double totalSales;
 
-    public SalesAssistent(String id, String firstName, String lastName, String address, 
-    String zipCode, String city, String phoneNumber, String department, double totalSales)
+    public SalesAssistent(String firstName, String lastName, String address, 
+    String zipCode, String city, String phoneNumber, String department)
     {
-        super(id, firstName, lastName, address, zipCode, city, phoneNumber);
+        super(firstName, lastName, address, zipCode, city, phoneNumber);
         this.department = department;
-        this.totalSales = totalSales;
+        this.totalSales = 0.0;
     }
     
     public String getDepartment(){
