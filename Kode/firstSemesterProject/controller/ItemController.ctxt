@@ -7,5 +7,5 @@ comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ItemController\r\n
 comment2.params=barcode
 comment2.target=model.Item\ findItem(java.lang.String)
 comment3.params=ID\ name\ description\ barcode\ location\ placement\ quantity\ price
-comment3.target=void\ additem(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.Double,\ java.lang.Double)
+comment3.target=void\ createitem(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.Double,\ java.lang.Double)
 numComments=4
