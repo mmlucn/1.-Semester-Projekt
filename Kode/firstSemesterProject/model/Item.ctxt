@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Item\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=ID\ name\ description\ barcode\ location\ placement\ quantity\ price
+comment1.target=Item(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.Double,\ java.lang.Double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Item\r\n
+comment2.params=
+comment2.target=java.lang.String\ getBarcode()
+comment3.params=newLocation
+comment3.target=void\ changeLocation(java.lang.String)
+comment4.params=newPlacement
+comment4.target=void\ changePlacement(java.lang.String)
+numComments=5
