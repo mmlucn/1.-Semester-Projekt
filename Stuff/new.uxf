@@ -677,7 +677,8 @@ _+getInstance() : OrderContainer_
     <panel_attributes>                                                 1
 PersonContainer
 -
--Persons: ArrayList&lt;person&gt;
+-costumers : ArrayList&lt;person&gt;
+-salesAssistants : ArrayList&lt;Person&gt; 
 _-instance : PersonContainer_
 -
 -&lt;&lt;constructor&gt;&gt; PersonContainer()
