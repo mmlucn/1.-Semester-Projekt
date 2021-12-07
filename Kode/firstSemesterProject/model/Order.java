@@ -14,7 +14,7 @@ public class Order
     private LocalDate deliveryDate;
     private ArrayList<OrderLine> orderLines;
     
-    public Order()
+    public Order(Item[] items, LocalDate shipmentDate, String shipmentAddress, String shipmentZip, String shipmentCity)
     {
         
     }
