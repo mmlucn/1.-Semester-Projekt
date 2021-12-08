@@ -23,7 +23,7 @@ public class ItemController
         return itemCont.findItem(barcode);
     }
     
-    public void createitem(String ID, String name, String description, String barcode, String location, String placement, Double quantity, Double price){
+    public void createItem(String ID, String name, String description, String barcode, String location, String placement, Double quantity, Double price){
         Item itemObject = new Item(ID, name, description, barcode, location, placement, quantity, price);
         itemCont.addItem(itemObject);
     }
