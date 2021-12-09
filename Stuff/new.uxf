@@ -814,9 +814,8 @@ _+getInstance() : ItemContainer_
 -placement : String
 -quantity : double
 -price : double
-
 -
-
+getBarcode():String
 
 </panel_attributes>
     <additional_attributes/>
@@ -1123,13 +1122,13 @@ city : String)</panel_attributes>
     <coordinates>
       <x>2040</x>
       <y>576</y>
-      <w>282</w>
+      <w>246</w>
       <h>144</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-1.1.2:addPerson(p : Person)
-2.1.1:findPerson(oldPhoneNumber : String)
-3.1.1:deletePerson(phoneNumber : String)</panel_attributes>
+1.1.2:addItem(i : Ite)
+2.1.1:findItem(oldBarcode : String)
+3.1.1:deleteItem(barcode : String)</panel_attributes>
     <additional_attributes>180.0;220.0;180.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
@@ -1166,8 +1165,8 @@ city : String)</panel_attributes>
     <panel_attributes>lt=&lt;-
 
 
-2.1.1.1:*[i=1..n]p=getPhoneNumber():String
-3.1.1.1:*[i=1..n]p=getPhoneNumber():String</panel_attributes>
+2.1.1.1:*[i=1..n]p=getBarcode():String
+3.1.1.1:*[i=1..n]p=getBarcode():String</panel_attributes>
     <additional_attributes>10.0;20.0;520.0;20.0</additional_attributes>
   </element>
   <element>
