@@ -4,10 +4,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>594</x>
       <y>2244</y>
       <w>121</w>
       <h>33</h>
+=======
+      <x>324</x>
+      <y>864</y>
+      <w>66</w>
+      <h>18</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:KasseUI?_</panel_attributes>
     <additional_attributes/>
@@ -15,10 +22,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>638</x>
       <y>2266</y>
       <w>242</w>
       <h>253</h>
+=======
+      <x>348</x>
+      <y>876</y>
+      <w>132</w>
+      <h>138</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1 loan = createSale()
@@ -30,10 +44,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>572</x>
       <y>2497</y>
       <w>165</w>
       <h>44</h>
+=======
+      <x>312</x>
+      <y>1002</y>
+      <w>90</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:KasseController?_</panel_attributes>
     <additional_attributes/>
@@ -41,10 +62,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>583</x>
       <y>2706</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>318</x>
+      <y>1116</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:Sale_
 </panel_attributes>
@@ -53,10 +81,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>638</x>
       <y>2530</y>
       <w>198</w>
       <h>198</h>
+=======
+      <x>348</x>
+      <y>1020</y>
+      <w>108</w>
+      <h>108</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.1 sale = createSale()
@@ -66,10 +101,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>308</x>
       <y>2233</y>
       <w>308</w>
       <h>88</h>
+=======
+      <x>168</x>
+      <y>858</y>
+      <w>168</w>
+      <h>48</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.createSale
@@ -81,10 +123,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>902</x>
       <y>2827</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>492</x>
+      <y>1182</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:ItemContainer_</panel_attributes>
     <additional_attributes/>
@@ -92,10 +141,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>957</x>
       <y>2739</y>
       <w>253</w>
       <h>110</h>
+=======
+      <x>522</x>
+      <y>1134</y>
+      <w>138</w>
+      <h>60</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1.1 item = addItem(barCode)</panel_attributes>
@@ -104,10 +160,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>88</x>
       <y>2618</y>
       <w>385</w>
       <h>110</h>
+=======
+      <x>48</x>
+      <y>1068</y>
+      <w>210</w>
+      <h>60</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1.1 customer = findCustomer(phoneNumber)???</panel_attributes>
@@ -116,10 +179,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>44</x>
       <y>2585</y>
       <w>143</w>
       <h>44</h>
+=======
+      <x>24</x>
+      <y>1050</y>
+      <w>78</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:CustomerController_</panel_attributes>
     <additional_attributes/>
@@ -127,10 +197,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>902</x>
       <y>2706</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>492</x>
+      <y>1116</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:ItemController_</panel_attributes>
     <additional_attributes/>
@@ -138,10 +215,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>704</x>
       <y>2486</y>
       <w>440</w>
       <h>242</h>
+=======
+      <x>384</x>
+      <y>996</y>
+      <w>240</w>
+      <h>132</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1 item = addItem()</panel_attributes>
@@ -151,9 +235,15 @@
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
+<<<<<<< Updated upstream
       <y>2706</y>
       <w>198</w>
       <h>44</h>
+=======
+      <y>1116</y>
+      <w>108</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:CustomerContainer_</panel_attributes>
     <additional_attributes/>
@@ -161,10 +251,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>88</x>
       <y>2486</y>
       <w>528</w>
       <h>121</h>
+=======
+      <x>48</x>
+      <y>996</y>
+      <w>288</w>
+      <h>66</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1 customer = findCustomer()???</panel_attributes>
@@ -173,10 +270,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>88</x>
       <y>2739</y>
       <w>242</w>
       <h>132</h>
+=======
+      <x>48</x>
+      <y>1134</y>
+      <w>132</w>
+      <h>72</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1.1.1 *[i=1..n] findCustomer</panel_attributes>
@@ -186,9 +290,15 @@
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
+<<<<<<< Updated upstream
       <y>2849</y>
       <w>198</w>
       <h>44</h>
+=======
+      <y>1194</y>
+      <w>108</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:CustomerContainer_</panel_attributes>
     <additional_attributes/>
@@ -196,10 +306,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>902</x>
       <y>2948</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>492</x>
+      <y>1248</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:Item_</panel_attributes>
     <additional_attributes/>
@@ -207,10 +324,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>957</x>
       <y>2860</y>
       <w>264</w>
       <h>110</h>
+=======
+      <x>522</x>
+      <y>1200</y>
+      <w>144</w>
+      <h>60</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1.1.1 item = addItem(barCode)</panel_attributes>
@@ -219,10 +343,17 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>209</x>
       <y>2233</y>
       <w>110</w>
       <h>44</h>
+=======
+      <x>114</x>
+      <y>858</y>
+      <w>60</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>Kasse salg</panel_attributes>
     <additional_attributes/>
@@ -230,10 +361,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2002</x>
       <y>2761</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>1092</x>
+      <y>1146</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:LoanContainer_</panel_attributes>
     <additional_attributes/>
@@ -241,10 +379,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1881</x>
       <y>2299</y>
       <w>121</w>
       <h>33</h>
+=======
+      <x>1026</x>
+      <y>894</y>
+      <w>66</w>
+      <h>18</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:KasseUI?_</panel_attributes>
     <additional_attributes/>
@@ -252,10 +397,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1925</x>
       <y>2321</y>
       <w>242</w>
       <h>253</h>
+=======
+      <x>1050</x>
+      <y>906</y>
+      <w>132</w>
+      <h>138</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1 loan = createLoan()
@@ -267,10 +419,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1859</x>
       <y>2552</y>
       <w>165</w>
       <h>44</h>
+=======
+      <x>1014</x>
+      <y>1032</y>
+      <w>90</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:KasseController?_</panel_attributes>
     <additional_attributes/>
@@ -278,10 +437,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1705</x>
       <y>2761</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>930</x>
+      <y>1146</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:Loan_
 </panel_attributes>
@@ -290,10 +456,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1760</x>
       <y>2563</y>
       <w>220</w>
       <h>220</h>
+=======
+      <x>960</x>
+      <y>1038</y>
+      <w>120</w>
+      <h>120</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.1 loan = createLoan()
@@ -303,10 +476,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1595</x>
       <y>2288</y>
       <w>308</w>
       <h>88</h>
+=======
+      <x>870</x>
+      <y>888</y>
+      <w>168</w>
+      <h>48</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.createLoan
@@ -318,10 +498,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2189</x>
       <y>2882</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>1194</x>
+      <y>1212</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:ToolContainer_</panel_attributes>
     <additional_attributes/>
@@ -329,10 +516,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2244</x>
       <y>2816</y>
       <w>253</w>
       <h>88</h>
+=======
+      <x>1224</x>
+      <y>1164</y>
+      <w>138</w>
+      <h>60</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1.1 tool = findTool(barCode)</panel_attributes>
@@ -341,10 +535,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1375</x>
       <y>2673</y>
       <w>385</w>
       <h>110</h>
+=======
+      <x>750</x>
+      <y>1098</y>
+      <w>210</w>
+      <h>60</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1.1 customer = findCustomer(phoneNumber)???</panel_attributes>
@@ -353,10 +554,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1331</x>
       <y>2640</y>
       <w>143</w>
       <h>44</h>
+=======
+      <x>726</x>
+      <y>1080</y>
+      <w>78</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:CustomerController_</panel_attributes>
     <additional_attributes/>
@@ -364,10 +572,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2189</x>
       <y>2761</y>
       <w>121</w>
       <h>66</h>
+=======
+      <x>1194</x>
+      <y>1146</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:ToolController_</panel_attributes>
     <additional_attributes/>
@@ -375,10 +590,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1991</x>
       <y>2541</y>
       <w>429</w>
       <h>242</h>
+=======
+      <x>1086</x>
+      <y>1026</y>
+      <w>234</w>
+      <h>132</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1 tool = addTool()</panel_attributes>
@@ -387,10 +609,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1287</x>
       <y>2761</y>
       <w>198</w>
       <h>44</h>
+=======
+      <x>702</x>
+      <y>1146</y>
+      <w>108</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:CustomerContainer_</panel_attributes>
     <additional_attributes/>
@@ -398,10 +627,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2013</x>
       <y>2563</y>
       <w>176</w>
       <h>220</h>
+=======
+      <x>1098</x>
+      <y>1038</y>
+      <w>96</w>
+      <h>120</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 4.1.2 addLoan()</panel_attributes>
@@ -410,10 +646,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1375</x>
       <y>2541</y>
       <w>528</w>
       <h>121</h>
+=======
+      <x>750</x>
+      <y>1026</y>
+      <w>288</w>
+      <h>66</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1 customer = findCustomer()???</panel_attributes>
@@ -422,10 +665,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1617</x>
       <y>2772</y>
       <w>187</w>
       <h>132</h>
+=======
+      <x>882</x>
+      <y>1152</y>
+      <w>102</w>
+      <h>72</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.1.1 loan = addPeriod
@@ -435,10 +685,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1375</x>
       <y>2794</y>
       <w>242</w>
       <h>132</h>
+=======
+      <x>750</x>
+      <y>1164</y>
+      <w>132</w>
+      <h>72</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1.1.1 *[i=1..n] findCustomer</panel_attributes>
@@ -447,10 +704,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1287</x>
       <y>2904</y>
       <w>198</w>
       <h>44</h>
+=======
+      <x>702</x>
+      <y>1224</y>
+      <w>108</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:CustomerContainer_</panel_attributes>
     <additional_attributes/>
@@ -458,10 +722,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2189</x>
       <y>3003</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>1194</x>
+      <y>1278</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:Tool_</panel_attributes>
     <additional_attributes/>
@@ -469,10 +740,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2244</x>
       <y>2915</y>
       <w>264</w>
       <h>110</h>
+=======
+      <x>1224</x>
+      <y>1230</y>
+      <w>144</w>
+      <h>60</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1.1.1 tool = findTool(barCode)</panel_attributes>
@@ -481,10 +759,17 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1496</x>
       <y>2288</y>
       <w>110</w>
       <h>44</h>
+=======
+      <x>816</x>
+      <y>888</y>
+      <w>60</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>Udlån</panel_attributes>
     <additional_attributes/>
@@ -492,10 +777,17 @@
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>484</x>
       <y>2717</y>
       <w>209</w>
       <h>132</h>
+=======
+      <x>264</x>
+      <y>1122</y>
+      <w>114</w>
+      <h>72</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.1.1 sale = addDiscount
@@ -505,10 +797,17 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>979</x>
       <y>2299</y>
       <w>418</w>
       <h>110</h>
+=======
+      <x>534</x>
+      <y>894</y>
+      <w>228</w>
+      <h>60</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>Spørgsmål
 halign=left
@@ -519,10 +818,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2321</x>
       <y>242</y>
       <w>121</w>
       <h>33</h>
+=======
+      <x>282</x>
+      <y>108</y>
+      <w>66</w>
+      <h>18</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:OrderUI_</panel_attributes>
     <additional_attributes/>
@@ -530,10 +836,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2365</x>
       <y>264</y>
       <w>198</w>
       <h>253</h>
+=======
+      <x>306</x>
+      <y>120</y>
+      <w>102</w>
+      <h>138</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1 order = createSale()
@@ -544,10 +857,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2299</x>
       <y>495</y>
       <w>165</w>
       <h>44</h>
+=======
+      <x>270</x>
+      <y>246</y>
+      <w>90</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:OrderController_</panel_attributes>
     <additional_attributes/>
@@ -555,10 +875,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2310</x>
       <y>704</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>276</x>
+      <y>360</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:Order_
 </panel_attributes>
@@ -567,10 +894,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2365</x>
       <y>528</y>
       <w>198</w>
       <h>198</h>
+=======
+      <x>306</x>
+      <y>264</y>
+      <w>108</w>
+      <h>108</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.1 sale = createSale()
@@ -580,10 +914,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2035</x>
       <y>231</y>
       <w>308</w>
       <h>66</h>
+=======
+      <x>126</x>
+      <y>102</y>
+      <w>168</w>
+      <h>36</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.createOrder
@@ -594,10 +935,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2629</x>
       <y>825</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>450</x>
+      <y>426</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:ItemContainer_</panel_attributes>
     <additional_attributes/>
@@ -605,10 +953,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2684</x>
       <y>737</y>
       <w>253</w>
       <h>110</h>
+=======
+      <x>480</x>
+      <y>378</y>
+      <w>138</w>
+      <h>60</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1.1 item = addItem(barCode)</panel_attributes>
@@ -617,10 +972,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2629</x>
       <y>704</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>450</x>
+      <y>360</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:ItemController_</panel_attributes>
     <additional_attributes/>
@@ -628,10 +990,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2431</x>
       <y>484</y>
       <w>440</w>
       <h>242</h>
+=======
+      <x>342</x>
+      <y>240</y>
+      <w>240</w>
+      <h>132</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1 item = addItem()</panel_attributes>
@@ -640,10 +1009,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2629</x>
       <y>946</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>450</x>
+      <y>492</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:Item_</panel_attributes>
     <additional_attributes/>
@@ -651,10 +1027,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>2684</x>
       <y>858</y>
       <w>264</w>
       <h>110</h>
+=======
+      <x>480</x>
+      <y>444</y>
+      <w>144</w>
+      <h>60</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1.1.1 item = addItem(barCode)</panel_attributes>
@@ -663,10 +1046,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLGeneric</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1936</x>
       <y>231</y>
       <w>110</w>
       <h>44</h>
+=======
+      <x>72</x>
+      <y>102</y>
+      <w>60</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>Kasse salg</panel_attributes>
     <additional_attributes/>
@@ -674,10 +1064,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3905</x>
       <y>770</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>1050</x>
+      <y>390</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:LoanContainer_</panel_attributes>
     <additional_attributes/>
@@ -685,10 +1082,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3784</x>
       <y>297</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>984</x>
+      <y>138</y>
+      <w>66</w>
+      <h>18</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:LoanUI_</panel_attributes>
     <additional_attributes/>
@@ -696,10 +1100,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3828</x>
       <y>330</y>
       <w>198</w>
       <h>253</h>
+=======
+      <x>1008</x>
+      <y>150</y>
+      <w>108</w>
+      <h>138</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1 loan = createLoan()
@@ -711,10 +1122,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3762</x>
       <y>561</y>
       <w>165</w>
       <h>44</h>
+=======
+      <x>972</x>
+      <y>276</y>
+      <w>90</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:LoanController_</panel_attributes>
     <additional_attributes/>
@@ -722,10 +1140,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3608</x>
       <y>770</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>888</x>
+      <y>390</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:Loan_
 </panel_attributes>
@@ -734,10 +1159,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3663</x>
       <y>572</y>
       <w>220</w>
       <h>220</h>
+=======
+      <x>918</x>
+      <y>282</y>
+      <w>120</w>
+      <h>120</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.1 loan = createLoan()
@@ -747,10 +1179,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3498</x>
       <y>297</y>
       <w>308</w>
       <h>88</h>
+=======
+      <x>828</x>
+      <y>132</y>
+      <w>168</w>
+      <h>48</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.createLoan
@@ -762,10 +1201,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>4092</x>
       <y>891</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>1152</x>
+      <y>456</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:ToolContainer_</panel_attributes>
     <additional_attributes/>
@@ -773,10 +1219,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>4147</x>
       <y>803</y>
       <w>253</w>
       <h>110</h>
+=======
+      <x>1182</x>
+      <y>408</y>
+      <w>138</w>
+      <h>60</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1.1 tool = findTool(barCode)</panel_attributes>
@@ -785,10 +1238,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3278</x>
       <y>682</y>
       <w>363</w>
       <h>110</h>
+=======
+      <x>708</x>
+      <y>342</y>
+      <w>198</w>
+      <h>60</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1.1 customer = findCustomer(phoneNumber)</panel_attributes>
@@ -797,10 +1257,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3223</x>
       <y>649</y>
       <w>154</w>
       <h>44</h>
+=======
+      <x>678</x>
+      <y>324</y>
+      <w>84</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:PersonController_</panel_attributes>
     <additional_attributes/>
@@ -808,10 +1275,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>4092</x>
       <y>770</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>1152</x>
+      <y>390</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:ToolController_</panel_attributes>
     <additional_attributes/>
@@ -819,10 +1293,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3894</x>
       <y>550</y>
       <w>429</w>
       <h>242</h>
+=======
+      <x>1044</x>
+      <y>270</y>
+      <w>234</w>
+      <h>132</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1 tool = addTool()</panel_attributes>
@@ -831,10 +1312,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3190</x>
       <y>770</y>
       <w>198</w>
       <h>44</h>
+=======
+      <x>660</x>
+      <y>390</y>
+      <w>108</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:PersonContainer_</panel_attributes>
     <additional_attributes/>
@@ -842,10 +1330,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3916</x>
       <y>572</y>
       <w>176</w>
       <h>220</h>
+=======
+      <x>1056</x>
+      <y>282</y>
+      <w>96</w>
+      <h>120</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 4.1.2 addLoan()</panel_attributes>
@@ -854,10 +1349,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3278</x>
       <y>550</y>
       <w>528</w>
       <h>121</h>
+=======
+      <x>708</x>
+      <y>270</y>
+      <w>288</w>
+      <h>66</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1 customer = findCustomer()</panel_attributes>
@@ -866,10 +1368,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3520</x>
       <y>781</y>
       <w>187</w>
       <h>132</h>
+=======
+      <x>840</x>
+      <y>396</y>
+      <w>102</w>
+      <h>72</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.1.1 loan = addPeriod
@@ -879,10 +1388,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3278</x>
       <y>803</y>
       <w>242</w>
       <h>132</h>
+=======
+      <x>708</x>
+      <y>408</y>
+      <w>132</w>
+      <h>72</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1.1.1 *[i=1..n] findCustomer</panel_attributes>
@@ -891,10 +1407,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3190</x>
       <y>913</y>
       <w>198</w>
       <h>44</h>
+=======
+      <x>660</x>
+      <y>468</y>
+      <w>108</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:Customer_</panel_attributes>
     <additional_attributes/>
@@ -902,10 +1425,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>4092</x>
       <y>1012</y>
       <w>121</w>
       <h>44</h>
+=======
+      <x>1152</x>
+      <y>522</y>
+      <w>66</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>_:Tool_</panel_attributes>
     <additional_attributes/>
@@ -913,10 +1443,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>4147</x>
       <y>924</y>
       <w>264</w>
       <h>110</h>
+=======
+      <x>1182</x>
+      <y>474</y>
+      <w>144</w>
+      <h>60</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1.1.1 tool = findTool(barCode)</panel_attributes>
@@ -925,10 +1462,17 @@ item/Tool skal være det samme, siden det er barcode?
   <element>
     <id>UMLGeneric</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>3399</x>
       <y>297</y>
       <w>110</w>
       <h>44</h>
+=======
+      <x>774</x>
+      <y>132</y>
+      <w>60</w>
+      <h>24</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>Udlån</panel_attributes>
     <additional_attributes/>

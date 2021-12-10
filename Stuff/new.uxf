@@ -488,10 +488,17 @@ fg=red</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1085</x>
       <y>441</y>
       <w>1456</w>
       <h>420</h>
+=======
+      <x>1520</x>
+      <y>610</y>
+      <w>2080</w>
+      <h>600</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>modellayer
 --
@@ -789,13 +796,20 @@ _+getInstance() : ItemContainer_
   <element>
     <id>Relation</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>1190</x>
       <y>420</y>
       <w>21</w>
       <h>70</h>
+=======
+      <x>1670</x>
+      <y>600</y>
+      <w>60</w>
+      <h>100</h>
+>>>>>>> Stashed changes
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+    <additional_attributes>40.0;80.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -864,7 +878,6 @@ getBarcode():String
     </coordinates>
     <panel_attributes>costumers[i]:Costumer
 -
-costumers : ArrayList&lt;Person&gt;
 companyName : String
 companyCode : String
 -
@@ -885,7 +898,6 @@ city : String)</panel_attributes>
     </coordinates>
     <panel_attributes>SalesAssistants[i]:SalesAssistant
 -
--salesAssistants : ArrayList&lt;Person&gt;
 department : String
 totalSales : double
 -
