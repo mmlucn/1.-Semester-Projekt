@@ -6,7 +6,6 @@ public class PersonContainer{
     private static PersonContainer instance;
     private ArrayList<SalesAssistent> salesAssistents;
     private HashMap<Customer,phoneNumber> customers;
-    private Customer customer;
 
     public PersonContainer(){
         salesAssistents = new ArrayList<>();  
