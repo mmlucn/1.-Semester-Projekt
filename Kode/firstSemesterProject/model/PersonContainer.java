@@ -1,14 +1,16 @@
 package model;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class PersonContainer{
     private static PersonContainer instance;
     private ArrayList<SalesAssistent> salesAssistents;
-    private ArrayList<Customer> customers;
+    private HashMap<Customer,phoneNumber> customers;
+    private Customer customer;
 
     public PersonContainer(){
         salesAssistents = new ArrayList<>();  
-        customers = new ArrayList<>();
+        customers = new HashMap<Customer,phoneNumber>();
     }
 
     public static PersonContainer getInstance(){
