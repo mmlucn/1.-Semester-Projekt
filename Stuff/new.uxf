@@ -1,28 +1,13 @@
-<<<<<<< Updated upstream
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>420</x><y>940</y><w>100</w><h>30</h></coordinates><panel_attributes>_:System_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>130</x><y>890</y><w>100</w><h>110</h></coordinates><panel_attributes>Seles Assistant</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>970</y><w>30</w><h>440</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;420</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>980</y><w>30</w><h>430</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;410</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>1020</y><w>320</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
-create order()
-</panel_attributes><additional_attributes>300;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>1050</y><w>320</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
-</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>1080</y><w>320</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
-findCostumer(phoneNumber)</panel_attributes><additional_attributes>300;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>1110</y><w>320</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
-costumer</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>1140</y><w>320</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
-addItem(barcode)</panel_attributes><additional_attributes>300;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>1170</y><w>320</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
-Item</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>1210</y><w>320</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
-setShipmentInfo(date, address)</panel_attributes><additional_attributes>300;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>1140</y><w>330</w><h>60</h></coordinates><panel_attributes>
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>1270</y><w>320</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
-finalizeOrder()</panel_attributes><additional_attributes>300;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>1300</y><w>320</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
-ok</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>1240</y><w>320</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
-ok</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>960</y><w>370</w><h>110</h></coordinates><panel_attributes>Operationskontrakt: findCostumer(phoneNumber)
-=======
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>3</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>126</x>
-      <y>282</y>
-      <w>30</w>
-      <h>9</h>
+      <x>544</x>
+      <y>752</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:System_</panel_attributes>
     <additional_attributes/>
@@ -30,10 +15,10 @@ ok</panel_attributes><additional_attributes>10;20;300;20</additional_attributes>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>36</x>
-      <y>267</y>
-      <w>36</w>
-      <h>33</h>
+      <x>304</x>
+      <y>712</y>
+      <w>96</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>Seles Assistant</panel_attributes>
     <additional_attributes/>
@@ -41,10 +26,10 @@ ok</panel_attributes><additional_attributes>10;20;300;20</additional_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>138</x>
-      <y>291</y>
-      <w>9</w>
-      <h>132</h>
+      <x>576</x>
+      <y>776</y>
+      <w>24</w>
+      <h>352</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;420.0</additional_attributes>
@@ -52,10 +37,10 @@ ok</panel_attributes><additional_attributes>10;20;300;20</additional_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>51</x>
-      <y>294</y>
-      <w>9</w>
-      <h>129</h>
+      <x>344</x>
+      <y>784</y>
+      <w>24</w>
+      <h>344</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;410.0</additional_attributes>
@@ -63,10 +48,10 @@ ok</panel_attributes><additional_attributes>10;20;300;20</additional_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>51</x>
-      <y>306</y>
-      <w>96</w>
-      <h>15</h>
+      <x>344</x>
+      <y>816</y>
+      <w>256</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 create order()
@@ -76,10 +61,10 @@ create order()
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>51</x>
-      <y>315</y>
-      <w>96</w>
-      <h>12</h>
+      <x>344</x>
+      <y>840</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 </panel_attributes>
@@ -88,10 +73,10 @@ create order()
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>51</x>
-      <y>324</y>
-      <w>96</w>
-      <h>12</h>
+      <x>344</x>
+      <y>864</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 findCostumer(phoneNumber)</panel_attributes>
@@ -100,10 +85,10 @@ findCostumer(phoneNumber)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>51</x>
-      <y>333</y>
-      <w>96</w>
-      <h>12</h>
+      <x>344</x>
+      <y>888</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 costumer</panel_attributes>
@@ -112,10 +97,10 @@ costumer</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>51</x>
-      <y>342</y>
-      <w>96</w>
-      <h>12</h>
+      <x>344</x>
+      <y>912</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 addItem(barcode)</panel_attributes>
@@ -124,10 +109,10 @@ addItem(barcode)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>51</x>
-      <y>351</y>
-      <w>96</w>
-      <h>12</h>
+      <x>344</x>
+      <y>936</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 Item</panel_attributes>
@@ -136,22 +121,22 @@ Item</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>48</x>
-      <y>363</y>
-      <w>96</w>
-      <h>12</h>
+      <x>336</x>
+      <y>968</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-setShipmentInfo(date, address)</panel_attributes>
+setShipmentInfo(address)</panel_attributes>
     <additional_attributes>300.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>48</x>
-      <y>342</y>
-      <w>99</w>
-      <h>18</h>
+      <x>336</x>
+      <y>912</y>
+      <w>264</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>
 </panel_attributes>
@@ -160,10 +145,10 @@ setShipmentInfo(date, address)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>51</x>
-      <y>381</y>
-      <w>96</w>
-      <h>12</h>
+      <x>344</x>
+      <y>1016</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 finalizeOrder()</panel_attributes>
@@ -172,10 +157,10 @@ finalizeOrder()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>51</x>
-      <y>390</y>
-      <w>96</w>
-      <h>12</h>
+      <x>344</x>
+      <y>1040</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 ok</panel_attributes>
@@ -184,10 +169,10 @@ ok</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>51</x>
-      <y>372</y>
-      <w>96</w>
-      <h>12</h>
+      <x>344</x>
+      <y>992</y>
+      <w>256</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 ok</panel_attributes>
@@ -196,53 +181,45 @@ ok</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>168</x>
-      <y>288</y>
-      <w>111</w>
-      <h>33</h>
+      <x>656</x>
+      <y>768</y>
+      <w>296</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>Operationskontrakt: findCostumer(phoneNumber)
->>>>>>> Stashed changes
 --
 Use case: salg
 Preconditions:Kunden eksisterer i systemet.
 postconditions:
 Kunden er sat til c
 c er tilføjet til ordren
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>1090</y><w>370</w><h>110</h></coordinates><panel_attributes>Operationskontrakt: addItem(barcode)
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>168</x>
-      <y>327</y>
-      <w>111</w>
-      <h>33</h>
+      <x>656</x>
+      <y>872</y>
+      <w>296</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>Operationskontrakt: addItem(barcode)
->>>>>>> Stashed changes
 --
 Use case: salg
 Preconditions:prdouktet eksisterer.
 postconditions:
 Produktet er tilføjet til salget som i
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>130</y><w>100</w><h>30</h></coordinates><panel_attributes>:orderUI</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>350</y><w>100</w><h>30</h></coordinates><panel_attributes>:orderCtr</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>560</y><w>100</w><h>30</h></coordinates><panel_attributes>order:Order</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>550</y><w>110</w><h>30</h></coordinates><panel_attributes>:orderContainer</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>950</x><y>350</y><w>100</w><h>30</h></coordinates><panel_attributes>:personCtr</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>930</x><y>550</y><w>140</w><h>30</h></coordinates><panel_attributes>:personContainer</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>350</y><w>100</w><h>30</h></coordinates><panel_attributes>:itemCtr</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>560</y><w>100</w><h>30</h></coordinates><panel_attributes>:itemContainer</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>720</x><y>730</y><w>100</w><h>30</h></coordinates><panel_attributes>:Costumer</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>730</y><w>100</w><h>30</h></coordinates><panel_attributes>:Item </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>120</y><w>270</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>147</x>
-      <y>39</y>
-      <w>30</w>
-      <h>9</h>
+      <x>600</x>
+      <y>104</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:orderUI</panel_attributes>
     <additional_attributes/>
@@ -250,10 +227,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>147</x>
-      <y>105</y>
-      <w>30</w>
-      <h>9</h>
+      <x>600</x>
+      <y>280</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:orderCtr</panel_attributes>
     <additional_attributes/>
@@ -261,10 +238,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>93</x>
-      <y>168</y>
-      <w>30</w>
-      <h>9</h>
+      <x>456</x>
+      <y>448</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>order:Order</panel_attributes>
     <additional_attributes/>
@@ -272,10 +249,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>183</x>
-      <y>165</y>
-      <w>33</w>
-      <h>9</h>
+      <x>696</x>
+      <y>440</y>
+      <w>88</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:orderContainer</panel_attributes>
     <additional_attributes/>
@@ -283,10 +260,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>285</x>
-      <y>105</y>
-      <w>30</w>
-      <h>9</h>
+      <x>968</x>
+      <y>280</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:personCtr</panel_attributes>
     <additional_attributes/>
@@ -294,10 +271,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>279</x>
-      <y>165</y>
-      <w>42</w>
-      <h>9</h>
+      <x>952</x>
+      <y>440</y>
+      <w>112</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:personContainer</panel_attributes>
     <additional_attributes/>
@@ -305,10 +282,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>105</y>
-      <w>30</w>
-      <h>9</h>
+      <x>208</x>
+      <y>280</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:itemCtr</panel_attributes>
     <additional_attributes/>
@@ -316,10 +293,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>168</y>
-      <w>30</w>
-      <h>9</h>
+      <x>208</x>
+      <y>448</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:itemContainer</panel_attributes>
     <additional_attributes/>
@@ -327,10 +304,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>216</x>
-      <y>219</y>
-      <w>30</w>
-      <h>9</h>
+      <x>784</x>
+      <y>584</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:Costumer</panel_attributes>
     <additional_attributes/>
@@ -338,10 +315,10 @@ Produktet er tilføjet til salget som i
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>219</y>
-      <w>30</w>
-      <h>9</h>
+      <x>208</x>
+      <y>584</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>:Item </panel_attributes>
     <additional_attributes/>
@@ -349,89 +326,58 @@ Produktet er tilføjet til salget som i
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>72</x>
-      <y>36</y>
-      <w>81</w>
-      <h>27</h>
+      <x>400</x>
+      <y>96</y>
+      <w>216</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
->>>>>>> Stashed changes
 1:createOrder
 2:findCostumer
 3:*[i=1..n]addItem(barcode : String)
 4:setDeliveryOrPickupDate
-<<<<<<< Updated upstream
-5:finalizeOrder</panel_attributes><additional_attributes>250;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>150</y><w>360</w><h>220</h></coordinates><panel_attributes>lt=&lt;-
-=======
 5:finalizeOrder</panel_attributes>
     <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>159</x>
-      <y>45</y>
-      <w>126</w>
-      <h>66</h>
+      <x>632</x>
+      <y>120</y>
+      <w>336</w>
+      <h>176</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
->>>>>>> Stashed changes
 1.1: order=createOrder():Order
 2.1:costumer = findCostumer(phoneNumber : String):Costumer
 3.1:item = addItem(barcode : String):Item
 4.1:shipment = setShipmentInfo(date : Date, adress : String)
-<<<<<<< Updated upstream
-5.1:finalizeOrder</panel_attributes><additional_attributes>10;200;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>370</y><w>280</w><h>210</h></coordinates><panel_attributes>lt=&lt;-
-=======
 5.1:finalizeOrder</panel_attributes>
     <additional_attributes>10.0;200.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>105</x>
-      <y>111</y>
-      <w>96</w>
-      <h>63</h>
+      <x>488</x>
+      <y>296</y>
+      <w>256</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
->>>>>>> Stashed changes
 1.1.1: order=&lt;&lt;create&gt;&gt;():Order
 2.1.2:addCostumer(costumer : Costumer):void
 3.1.2:addItem(item : Item):void
 4.1.1:setShipmentInfo()
-<<<<<<< Updated upstream
-5.1.1:finalizeOrder </panel_attributes><additional_attributes>10;190;10;60;190;10</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>340</y><w>420</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
-3.1.1: item = addItem(barcode : String) : Item</panel_attributes><additional_attributes>10;20;400;20</additional_attributes></element><element><id>Relation</id><coordinates><x>40</x><y>370</y><w>280</w><h>210</h></coordinates><panel_attributes>lt=&lt;-
-3.1.1.1: item = addItem(barcode : String) : Item</panel_attributes><additional_attributes>10;190;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>40</x><y>580</y><w>260</w><h>170</h></coordinates><panel_attributes>lt=&lt;-
-3.1.1.1.1: barcode= *[i=1..n]addItem():String</panel_attributes><additional_attributes>10;150;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>570</y><w>320</w><h>180</h></coordinates><panel_attributes>lt=&lt;-
-2.1.1.1.1: phoneNumber= *[i=1..n]findCostumer():String</panel_attributes><additional_attributes>10;160;10;80;250;10</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>370</y><w>310</w><h>200</h></coordinates><panel_attributes>lt=&lt;-
-1.1.2:addOrder(order : Order)</panel_attributes><additional_attributes>130;180;130;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>580</x><y>340</y><w>390</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
-2.1.1:costumer = findCostumer(phoneNumber: String)</panel_attributes><additional_attributes>370;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>990</x><y>370</y><w>360</w><h>200</h></coordinates><panel_attributes>lt=&lt;-
-2.1.1.1: costumer = findCostumer(phoneNumber : String) : Item</panel_attributes><additional_attributes>10;180;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1550</x><y>350</y><w>2080</w><h>280</h></coordinates><panel_attributes>controllerlayer
---
-
-
-fg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1550</x><y>150</y><w>2080</w><h>200</h></coordinates><panel_attributes>tuilayer
---
-
-
-fg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1550</x><y>630</y><w>2080</w><h>600</h></coordinates><panel_attributes>modellayer
---
-
-
-fg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2440</x><y>180</y><w>250</w><h>160</h></coordinates><panel_attributes>PersonUI
-=======
 5.1.1:finalizeOrder </panel_attributes>
     <additional_attributes>10.0;190.0;10.0;60.0;190.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>27</x>
-      <y>102</y>
-      <w>126</w>
-      <h>12</h>
+      <x>280</x>
+      <y>272</y>
+      <w>336</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1: item = addItem(barcode : String) : Item</panel_attributes>
@@ -440,10 +386,10 @@ fg=red</panel_attributes><additional_attributes></additional_attributes></elemen
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>12</x>
-      <y>111</y>
-      <w>96</w>
-      <h>63</h>
+      <x>240</x>
+      <y>296</y>
+      <w>256</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1.1: item = addItem(barcode : String) : Item</panel_attributes>
@@ -452,10 +398,10 @@ fg=red</panel_attributes><additional_attributes></additional_attributes></elemen
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>12</x>
-      <y>174</y>
-      <w>90</w>
-      <h>51</h>
+      <x>240</x>
+      <y>464</y>
+      <w>240</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 3.1.1.1.1: barcode= *[i=1..n]addItem():String</panel_attributes>
@@ -464,10 +410,10 @@ fg=red</panel_attributes><additional_attributes></additional_attributes></elemen
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>225</x>
-      <y>171</y>
-      <w>111</w>
-      <h>54</h>
+      <x>808</x>
+      <y>456</y>
+      <w>296</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1.1.1: phoneNumber= *[i=1..n]findCostumer():String</panel_attributes>
@@ -476,10 +422,10 @@ fg=red</panel_attributes><additional_attributes></additional_attributes></elemen
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>159</x>
-      <y>111</y>
-      <w>99</w>
-      <h>60</h>
+      <x>632</x>
+      <y>296</y>
+      <w>264</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.2:addOrder(order : Order)</panel_attributes>
@@ -488,10 +434,10 @@ fg=red</panel_attributes><additional_attributes></additional_attributes></elemen
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>174</x>
-      <y>102</y>
-      <w>117</w>
-      <h>12</h>
+      <x>672</x>
+      <y>272</y>
+      <w>312</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1:costumer = findCostumer(phoneNumber: String)</panel_attributes>
@@ -500,10 +446,10 @@ fg=red</panel_attributes><additional_attributes></additional_attributes></elemen
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>297</x>
-      <y>111</y>
-      <w>126</w>
-      <h>60</h>
+      <x>1000</x>
+      <y>296</y>
+      <w>336</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 2.1.1.1: costumer = findCostumer(phoneNumber : String) : Item</panel_attributes>
@@ -512,10 +458,10 @@ fg=red</panel_attributes><additional_attributes></additional_attributes></elemen
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>465</x>
-      <y>105</y>
-      <w>624</w>
-      <h>84</h>
+      <x>1448</x>
+      <y>280</y>
+      <w>1664</w>
+      <h>224</h>
     </coordinates>
     <panel_attributes>controllerlayer
 --
@@ -527,10 +473,10 @@ fg=red</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>465</x>
-      <y>45</y>
-      <w>624</w>
-      <h>60</h>
+      <x>1448</x>
+      <y>120</y>
+      <w>1664</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>tuilayer
 --
@@ -542,10 +488,10 @@ fg=red</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>465</x>
-      <y>189</y>
-      <w>624</w>
-      <h>180</h>
+      <x>1448</x>
+      <y>504</y>
+      <w>1664</w>
+      <h>480</h>
     </coordinates>
     <panel_attributes>modellayer
 --
@@ -557,65 +503,52 @@ fg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>732</x>
-      <y>54</y>
-      <w>75</w>
-      <h>48</h>
+      <x>2160</x>
+      <y>144</y>
+      <w>200</w>
+      <h>128</h>
     </coordinates>
     <panel_attributes>PersonMenu
->>>>>>> Stashed changes
 -
 -personController : PersonController
 -
 +createPerson(): void
 +findPerson(): void
 +updatePerson(): void
-<<<<<<< Updated upstream
-+deletePerson() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1950</x><y>420</y><w>330</w><h>180</h></coordinates><panel_attributes>OrderController
-=======
 +deletePerson() : void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>585</x>
-      <y>126</y>
-      <w>99</w>
-      <h>54</h>
+      <x>1768</x>
+      <y>336</y>
+      <w>264</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>OrderController
->>>>>>> Stashed changes
 -
 -orderContainer : OrderContainer
 -personController : PersonController
 -itemController : ItemController
 -
-<<<<<<< Updated upstream
-+createOrder(items [i] : Item, costumer : Costumer,
-=======
 +createOrder(item : Item, costumer : Costumer,
->>>>>>> Stashed changes
 salesAssistant : SalesAssistant, 
 shipmentadress : String,
 shipmentZip : String, shipmentCity : String,
 ) : Order
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1950</x><y>670</y><w>230</w><h>170</h></coordinates><panel_attributes>                                                 1
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>585</x>
-      <y>201</y>
-      <w>69</w>
-      <h>51</h>
+      <x>1768</x>
+      <y>536</y>
+      <w>184</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>                                                 1
->>>>>>> Stashed changes
 OrderContainer
 -
 -orders: ArrayList&lt;Order&gt;
@@ -624,19 +557,16 @@ _-instance : OrderContainer_
 -&lt;&lt;constructor&gt;&gt; OrderContainer()
 _+getInstance() : OrderContainer_
 +addOrder(order : Order)
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2090</x><y>300</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2050</x><y>590</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2050</x><y>830</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1970</x><y>890</y><w>190</w><h>170</h></coordinates><panel_attributes>orders[i] : Order
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>627</x>
-      <y>90</y>
-      <w>9</w>
-      <h>42</h>
+      <x>1880</x>
+      <y>240</y>
+      <w>24</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
@@ -644,10 +574,10 @@ _+getInstance() : OrderContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>615</x>
-      <y>177</y>
-      <w>9</w>
-      <h>30</h>
+      <x>1848</x>
+      <y>472</y>
+      <w>24</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
@@ -655,10 +585,10 @@ _+getInstance() : OrderContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>615</x>
-      <y>249</y>
-      <w>9</w>
-      <h>24</h>
+      <x>1848</x>
+      <y>664</y>
+      <w>24</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
@@ -666,13 +596,12 @@ _+getInstance() : OrderContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>591</x>
-      <y>267</y>
-      <w>57</w>
-      <h>51</h>
+      <x>1784</x>
+      <y>712</y>
+      <w>152</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>orders[i] : Order
->>>>>>> Stashed changes
 -
 -orderDate : LocalDate
 -vat : double
@@ -680,18 +609,9 @@ _+getInstance() : OrderContainer_
 -total : double
 -shipmentAdress : String
 -shipmentZip : String
--shipmentCity : String
+--shipmentCity : String
 -deliveryDate : LocalDate
--customer : Customer
 -
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2000</x><y>200</y><w>230</w><h>110</h></coordinates><panel_attributes>OrderUI
--
--orderController : OrderController
--
-+createOrder(): Order
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2300</x><y>420</y><w>570</w><h>160</h></coordinates><panel_attributes>PersonController
-=======
 
 </panel_attributes>
     <additional_attributes/>
@@ -699,10 +619,10 @@ _+getInstance() : OrderContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>600</x>
-      <y>60</y>
-      <w>69</w>
-      <h>33</h>
+      <x>1808</x>
+      <y>160</y>
+      <w>184</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>OrderMenu
 -
@@ -715,13 +635,12 @@ _+getInstance() : OrderContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>690</x>
-      <y>126</y>
-      <w>171</w>
-      <h>48</h>
+      <x>2048</x>
+      <y>336</y>
+      <w>456</w>
+      <h>128</h>
     </coordinates>
     <panel_attributes>PersonController
->>>>>>> Stashed changes
 -
 -personContainer : PersonContainer
 -
@@ -730,19 +649,16 @@ _+getInstance() : OrderContainer_
 +findPerson(phoneNumber : String): Person
 +updatePerson(oldPhoneNumber : String, id : String, firstName : String,
 lastName : String, address : String, zipCode : String, city : String, phoneNumber : String)
-<<<<<<< Updated upstream
-+deletePerson(phoneNumber : String) : Person</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2550</x><y>330</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2350</x><y>660</y><w>450</w><h>200</h></coordinates><panel_attributes>                                                                                                            1
-=======
 +deletePerson(phoneNumber : String) : Person</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>765</x>
-      <y>99</y>
-      <w>9</w>
-      <h>33</h>
+      <x>2248</x>
+      <y>264</y>
+      <w>24</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
@@ -750,13 +666,12 @@ lastName : String, address : String, zipCode : String, city : String, phoneNumbe
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>705</x>
-      <y>198</y>
-      <w>135</w>
-      <h>60</h>
+      <x>2088</x>
+      <y>528</y>
+      <w>360</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>                                                                                                            1
->>>>>>> Stashed changes
 PersonContainer
 -
 -costumers : HashMap&lt;Costumer&gt;
@@ -767,19 +682,16 @@ _-instance : PersonContainer_
 _+getInstance() : PersonContainer_
 +addPerson(p : Person): Person
 +deletePerson(phoneNumber : String) : Person
-<<<<<<< Updated upstream
-+findPerson(phoneNumber : String): Person</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2560</x><y>650</y><w>30</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2730</x><y>850</y><w>30</w><h>210</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;190;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2460</x><y>880</y><w>210</w><h>140</h></coordinates><panel_attributes>Person
-=======
 +findPerson(phoneNumber : String): Person</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>768</x>
-      <y>195</y>
-      <w>9</w>
-      <h>9</h>
+      <x>2256</x>
+      <y>520</y>
+      <w>24</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;10.0</additional_attributes>
@@ -787,10 +699,10 @@ _+getInstance() : PersonContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>819</x>
-      <y>255</y>
-      <w>9</w>
-      <h>63</h>
+      <x>2392</x>
+      <y>680</y>
+      <w>24</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;190.0;10.0;10.0</additional_attributes>
@@ -798,13 +710,12 @@ _+getInstance() : PersonContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>738</x>
-      <y>264</y>
-      <w>63</w>
-      <h>42</h>
+      <x>2176</x>
+      <y>704</y>
+      <w>168</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>Person
->>>>>>> Stashed changes
 -
 -id : String
 -firstName : String
@@ -814,22 +725,18 @@ _+getInstance() : PersonContainer_
 -zipCode : String
 -city : String
 
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1560</x><y>380</y><w>360</w><h>230</h></coordinates><panel_attributes>ItemController
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>468</x>
-      <y>114</y>
-      <w>108</w>
-      <h>69</h>
+      <x>1456</x>
+      <y>304</y>
+      <w>288</w>
+      <h>184</h>
     </coordinates>
     <panel_attributes>ItemController
->>>>>>> Stashed changes
 -
 -itemContainer : ItemContainer
 -
@@ -844,19 +751,16 @@ barcode : String, location : String, placement : String,
 quantity : String, price : double)
 deleteItem(barcode : String)
 
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1910</x><y>490</y><w>60</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;40;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1600</x><y>680</y><w>230</w><h>170</h></coordinates><panel_attributes>                                                 1
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>573</x>
-      <y>147</y>
-      <w>18</w>
-      <h>9</h>
+      <x>1736</x>
+      <y>392</y>
+      <w>48</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
@@ -864,13 +768,12 @@ deleteItem(barcode : String)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>204</y>
-      <w>69</w>
-      <h>51</h>
+      <x>1488</x>
+      <y>544</y>
+      <w>184</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>                                                 1
->>>>>>> Stashed changes
 ItemContainer
 -
 -items: ArrayList&lt;Item&gt;
@@ -880,19 +783,16 @@ _-instance : ItemContainer_
 _+getInstance() : ItemContainer_
 +findItem(barcode : String)
 +addItem(item : Item)
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1700</x><y>600</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1600</x><y>890</y><w>250</w><h>180</h></coordinates><panel_attributes>items[i] : Item
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>180</y>
-      <w>9</w>
-      <h>30</h>
+      <x>1568</x>
+      <y>480</y>
+      <w>24</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
@@ -900,13 +800,12 @@ _+getInstance() : ItemContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>267</y>
-      <w>75</w>
-      <h>54</h>
+      <x>1488</x>
+      <y>712</y>
+      <w>200</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>items[i] : Item
->>>>>>> Stashed changes
 -
 -name : String-
 -id : String
@@ -919,19 +818,16 @@ _+getInstance() : ItemContainer_
 -
 getBarcode():String 
 
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1700</x><y>840</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2270</x><y>490</y><w>50</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>30;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2450</x><y>1010</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;30;110;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2310</x><y>1040</y><w>260</w><h>180</h></coordinates><panel_attributes>costumers[i]:Costumer
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>252</y>
-      <w>9</w>
-      <h>21</h>
+      <x>1568</x>
+      <y>672</y>
+      <w>24</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -939,10 +835,10 @@ getBarcode():String
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>681</x>
-      <y>147</y>
-      <w>15</w>
-      <h>9</h>
+      <x>2024</x>
+      <y>392</y>
+      <w>40</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>30.0;10.0;10.0;10.0</additional_attributes>
@@ -950,10 +846,10 @@ getBarcode():String
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>735</x>
-      <y>303</y>
-      <w>39</w>
-      <h>15</h>
+      <x>2168</x>
+      <y>808</y>
+      <w>104</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;110.0;10.0</additional_attributes>
@@ -961,13 +857,12 @@ getBarcode():String
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>693</x>
-      <y>312</y>
-      <w>78</w>
-      <h>54</h>
+      <x>2056</x>
+      <y>832</y>
+      <w>208</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>costumers[i]:Costumer
->>>>>>> Stashed changes
 -
 costumers : ArrayList&lt;Person&gt;
 companyName : String
@@ -977,22 +872,18 @@ companyCode : String
 super(id : String, firstName : String,
 lastName: String, phoneNumber : String,
 address : String, zipCode : String,
-<<<<<<< Updated upstream
-city : String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2580</x><y>1040</y><w>260</w><h>180</h></coordinates><panel_attributes>SalesAssistants[i]:SalesAssistant
-=======
 city : String)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>774</x>
-      <y>312</y>
-      <w>78</w>
-      <h>54</h>
+      <x>2272</x>
+      <y>832</y>
+      <w>208</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>SalesAssistants[i]:SalesAssistant
->>>>>>> Stashed changes
 -
 -salesAssistants : ArrayList&lt;Person&gt;
 department : String
@@ -1002,22 +893,16 @@ totalSales : double
 super(id : String, firstName : String,
 lastName: String, phoneNumber : String,
 address : String, zipCode : String,
-<<<<<<< Updated upstream
-city : String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2550</x><y>1010</y><w>130</w><h>50</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>110;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>4450</x><y>10</y><w>100</w><h>30</h></coordinates><panel_attributes>_:PersonUI_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>4440</x><y>270</y><w>100</w><h>30</h></coordinates><panel_attributes>_:PersonCtr_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>3990</x><y>500</y><w>100</w><h>30</h></coordinates><panel_attributes>_p:Person</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>4600</x><y>510</y><w>130</w><h>30</h></coordinates><panel_attributes>_:PersonContainer_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>4200</x><y>0</y><w>270</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
-1:p=createPerson()
-2:updatePerson()
-3:deletePerson()</panel_attributes><additional_attributes>250;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>4480</x><y>30</y><w>520</w><h>260</h></coordinates><panel_attributes>lt=&lt;-
-=======
 city : String</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>765</x>
-      <y>303</y>
-      <w>39</w>
-      <h>15</h>
+      <x>2248</x>
+      <y>808</y>
+      <w>104</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>110.0;30.0;10.0;10.0</additional_attributes>
@@ -1025,10 +910,10 @@ city : String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1335</x>
-      <y>3</y>
-      <w>30</w>
-      <h>9</h>
+      <x>3768</x>
+      <y>8</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:PersonUI_</panel_attributes>
     <additional_attributes/>
@@ -1036,10 +921,10 @@ city : String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1332</x>
-      <y>81</y>
-      <w>30</w>
-      <h>9</h>
+      <x>3760</x>
+      <y>216</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:PersonCtr_</panel_attributes>
     <additional_attributes/>
@@ -1047,10 +932,10 @@ city : String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1197</x>
-      <y>150</y>
-      <w>30</w>
-      <h>9</h>
+      <x>3400</x>
+      <y>400</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_p:Person</panel_attributes>
     <additional_attributes/>
@@ -1058,10 +943,10 @@ city : String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1380</x>
-      <y>153</y>
-      <w>39</w>
-      <h>9</h>
+      <x>3888</x>
+      <y>408</y>
+      <w>104</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:PersonContainer_</panel_attributes>
     <additional_attributes/>
@@ -1069,10 +954,10 @@ city : String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1260</x>
+      <x>3568</x>
       <y>0</y>
-      <w>81</w>
-      <h>18</h>
+      <w>216</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 1:p=createPerson()
@@ -1083,33 +968,26 @@ city : String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1344</x>
-      <y>9</y>
-      <w>180</w>
-      <h>78</h>
+      <x>3792</x>
+      <y>24</y>
+      <w>480</w>
+      <h>208</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
->>>>>>> Stashed changes
 1.1:p = createPerson(id : String, firstName : String, lastName : String, address : String, 
                              zipCode : String, city : String, phoneNumber : String )
 2.1:updatePerson(oldPhoneNumber : String, id : String, firstName : String, lastName : String, 
                              address : String, zipCode : String, city : String, phoneNumber : String)
-<<<<<<< Updated upstream
-3.1:deletePerson(phoneNumber : String)</panel_attributes><additional_attributes>10;240;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>4480</x><y>290</y><w>430</w><h>240</h></coordinates><panel_attributes>lt=&lt;-
-1.1.2:addPerson(p : Person)
-2.1.1:findPerson(oldPhoneNumber : String)
-3.1.1:deletePerson(phoneNumber : String)</panel_attributes><additional_attributes>180;220;180;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>4030</x><y>290</y><w>510</w><h>230</h></coordinates><panel_attributes>lt=&lt;-
-=======
 3.1:deletePerson(phoneNumber : String)</panel_attributes>
     <additional_attributes>10.0;240.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1344</x>
-      <y>87</y>
-      <w>141</w>
-      <h>72</h>
+      <x>3792</x>
+      <y>232</y>
+      <w>376</w>
+      <h>192</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.2:addPerson(p : Person)
@@ -1120,13 +998,12 @@ city : String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1209</x>
-      <y>87</y>
-      <w>177</w>
-      <h>69</h>
+      <x>3432</x>
+      <y>232</y>
+      <w>472</w>
+      <h>184</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
->>>>>>> Stashed changes
 1.1.1:p = &lt;&lt;createPerson&gt;&gt;(id : String, firstName : String, lastName : String, address : String, 
                  zipCode : String, city : String, phoneNumber : String )
 2.1.2:setId(id : String)
@@ -1136,26 +1013,16 @@ city : String</panel_attributes>
 2.1.6:setzipCode(zipCode : String)
 2.1.7:setCity(city : String)
 2.1.8:setPhoneNumber(phoneNumber : String)
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes>10;210;10;10;460;10</additional_attributes></element><element><id>Relation</id><coordinates><x>4080</x><y>500</y><w>540</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
-
-
-2.1.1.1:*[i=1..n]p=getPhoneNumber():String
-3.1.1.1:*[i=1..n]p=getPhoneNumber():String</panel_attributes><additional_attributes>10;20;520;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>4370</x><y>680</y><w>100</w><h>30</h></coordinates><panel_attributes>_:ItemUI_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>4360</x><y>940</y><w>100</w><h>30</h></coordinates><panel_attributes>_:ItemCtr_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>3910</x><y>1170</y><w>100</w><h>30</h></coordinates><panel_attributes>_i:Item</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>4520</x><y>1180</y><w>130</w><h>30</h></coordinates><panel_attributes>_:ItemContainer_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>4120</x><y>670</y><w>270</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
-1:createItem()
-2:updateItem()
-3:deleteItem()</panel_attributes><additional_attributes>250;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>4400</x><y>700</y><w>460</w><h>260</h></coordinates><panel_attributes>lt=&lt;-
-=======
 </panel_attributes>
     <additional_attributes>10.0;210.0;10.0;10.0;460.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1224</x>
-      <y>150</y>
-      <w>162</w>
-      <h>24</h>
+      <x>3472</x>
+      <y>400</y>
+      <w>432</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 
@@ -1167,10 +1034,10 @@ city : String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1311</x>
-      <y>204</y>
-      <w>30</w>
-      <h>9</h>
+      <x>3704</x>
+      <y>544</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:ItemUI_</panel_attributes>
     <additional_attributes/>
@@ -1178,10 +1045,10 @@ city : String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1308</x>
-      <y>282</y>
-      <w>30</w>
-      <h>9</h>
+      <x>3696</x>
+      <y>752</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:ItemCtr_</panel_attributes>
     <additional_attributes/>
@@ -1189,10 +1056,10 @@ city : String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1173</x>
-      <y>351</y>
-      <w>30</w>
-      <h>9</h>
+      <x>3336</x>
+      <y>936</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_i:Item</panel_attributes>
     <additional_attributes/>
@@ -1200,10 +1067,10 @@ city : String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1356</x>
-      <y>354</y>
-      <w>39</w>
-      <h>9</h>
+      <x>3824</x>
+      <y>944</y>
+      <w>104</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:ItemContainer_</panel_attributes>
     <additional_attributes/>
@@ -1211,10 +1078,10 @@ city : String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1236</x>
-      <y>201</y>
-      <w>81</w>
-      <h>18</h>
+      <x>3504</x>
+      <y>536</y>
+      <w>216</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 1:createItem()
@@ -1225,35 +1092,28 @@ city : String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1320</x>
-      <y>210</y>
-      <w>159</w>
-      <h>78</h>
+      <x>3728</x>
+      <y>560</y>
+      <w>424</w>
+      <h>208</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
->>>>>>> Stashed changes
 1.1:i = createItem(id : String, Name : String, description : String, 
             barcode : String, location : String, placement : String, 
             quantity : String, price : double)
 2.1:updateItem(oldBarcode : String, id : String, Name : String, description : String, 
       barcode : String, location : String, placement : String, 
       quantity : String, price : double)
-<<<<<<< Updated upstream
-3.1:deleteItem(barcode : String)</panel_attributes><additional_attributes>10;240;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>4400</x><y>960</y><w>380</w><h>240</h></coordinates><panel_attributes>lt=&lt;-
-1.1.2:addItem(i : Ite)
-2.1.1:findItem(oldBarcode : String)
-3.1.1:deleteItem(barcode : String)</panel_attributes><additional_attributes>180;220;180;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>3950</x><y>960</y><w>480</w><h>230</h></coordinates><panel_attributes>lt=&lt;-
-=======
 3.1:deleteItem(barcode : String)</panel_attributes>
     <additional_attributes>10.0;240.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1320</x>
-      <y>288</y>
-      <w>123</w>
-      <h>72</h>
+      <x>3728</x>
+      <y>768</y>
+      <w>328</w>
+      <h>192</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.2:addItem(i : Ite)
@@ -1264,13 +1124,12 @@ city : String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1185</x>
-      <y>288</y>
-      <w>144</w>
-      <h>69</h>
+      <x>3368</x>
+      <y>768</y>
+      <w>384</w>
+      <h>184</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
->>>>>>> Stashed changes
 1.1.1:i = &lt;&lt;createItem&gt;&gt;(id : String, Name : String, description : String, 
                barcode : String, location : String, placement : String, 
                quantity : String, price : String)
@@ -1282,23 +1141,16 @@ city : String</panel_attributes>
 2.1.7:setPlacement(placement : String)
 2.1.8:setQuantity(quantity : String)
 2.1.9:setPrice(price : double)
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes>10;210;10;10;460;10</additional_attributes></element><element><id>Relation</id><coordinates><x>4000</x><y>1170</y><w>540</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
-
-
-2.1.1.1:*[i=1..n]p=getBarcode():String
-3.1.1.1:*[i=1..n]p=getBarcode():String</panel_attributes><additional_attributes>10;20;520;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1570</x><y>200</y><w>230</w><h>110</h></coordinates><panel_attributes>ItemUI
-=======
 </panel_attributes>
     <additional_attributes>10.0;210.0;10.0;10.0;460.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1200</x>
-      <y>351</y>
-      <w>162</w>
-      <h>24</h>
+      <x>3408</x>
+      <y>936</y>
+      <w>432</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 
@@ -1310,32 +1162,28 @@ city : String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>471</x>
-      <y>60</y>
-      <w>69</w>
-      <h>33</h>
+      <x>1464</x>
+      <y>160</y>
+      <w>184</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>ItemMenu
->>>>>>> Stashed changes
 -
 -itemController : ItemController
 -
 +createItem(): void
 +findItem(): void
 +updateItem(): void
-<<<<<<< Updated upstream
-+deleteItem(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1660</x><y>300</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2550</x><y>570</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2960</x><y>210</y><w>230</w><h>110</h></coordinates><panel_attributes>LoanUI
-=======
 +deleteItem(): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>498</x>
-      <y>90</y>
-      <w>9</w>
-      <h>30</h>
+      <x>1536</x>
+      <y>240</y>
+      <w>24</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
@@ -1343,10 +1191,10 @@ city : String</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>765</x>
-      <y>171</y>
-      <w>9</w>
-      <h>33</h>
+      <x>2248</x>
+      <y>456</y>
+      <w>24</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
@@ -1354,33 +1202,28 @@ city : String</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>888</x>
-      <y>63</y>
-      <w>69</w>
-      <h>33</h>
+      <x>2576</x>
+      <y>168</y>
+      <w>184</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>LoanMenu
->>>>>>> Stashed changes
 -
 -loanController : LoanController
 -
 +createLoan(): void
-<<<<<<< Updated upstream
-+returnTool():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2900</x><y>430</y><w>320</w><h>150</h></coordinates><panel_attributes>LoanController
-=======
 +returnTool():void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>870</x>
-      <y>129</y>
-      <w>96</w>
-      <h>45</h>
+      <x>2528</x>
+      <y>344</y>
+      <w>256</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>LoanController
->>>>>>> Stashed changes
 -
 -loanContainer : LoanContainer
 -personController : PersonController
@@ -1389,19 +1232,16 @@ city : String</panel_attributes>
 +createLoan(tool : Tool, 
 startDate : LocalDate, endDate : LocalDate,
 toolCondition : String) : Loan
-<<<<<<< Updated upstream
-+returnTool(tool : Tool)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2550</x><y>850</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2400</x><y>850</y><w>30</w><h>210</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;190;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2940</x><y>680</y><w>230</w><h>170</h></coordinates><panel_attributes>                                                 1
-=======
 +returnTool(tool : Tool)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>765</x>
-      <y>255</y>
-      <w>9</w>
-      <h>15</h>
+      <x>2248</x>
+      <y>680</y>
+      <w>24</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -1409,10 +1249,10 @@ toolCondition : String) : Loan
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>255</y>
-      <w>9</w>
-      <h>63</h>
+      <x>2128</x>
+      <y>680</y>
+      <w>24</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;190.0;10.0;10.0</additional_attributes>
@@ -1420,13 +1260,12 @@ toolCondition : String) : Loan
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>882</x>
-      <y>204</y>
-      <w>69</w>
-      <h>51</h>
+      <x>2560</x>
+      <y>544</y>
+      <w>184</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>                                                 1
->>>>>>> Stashed changes
 LoanContainer
 -
 -loans: ArrayList&lt;Loan&gt;
@@ -1435,22 +1274,18 @@ _-instance : LoanContainer_
 -&lt;&lt;constructor&gt;&gt; LoanContainer()
 _+getInstance() : LoanContainer_
 +addLoan(loan : Loan)
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>3250</x><y>380</y><w>370</w><h>230</h></coordinates><panel_attributes>ToolController
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>975</x>
-      <y>114</y>
-      <w>111</w>
-      <h>69</h>
+      <x>2808</x>
+      <y>304</y>
+      <w>296</w>
+      <h>184</h>
     </coordinates>
     <panel_attributes>ToolController
->>>>>>> Stashed changes
 -
 -toolContainer : ToolContainer
 
@@ -1466,19 +1301,16 @@ barcode : String, location : String, placement : String,
 quantity : String, pricePerDay : double)
 deleteTool(barcode : String)
 
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>3210</x><y>490</y><w>60</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>40;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2860</x><y>490</y><w>60</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;40;10</additional_attributes></element><element><id>Relation</id><coordinates><x>3040</x><y>570</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>3260</x><y>870</y><w>250</w><h>180</h></coordinates><panel_attributes>tools[i] : Tool
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>963</x>
-      <y>147</y>
-      <w>18</w>
-      <h>9</h>
+      <x>2776</x>
+      <y>392</y>
+      <w>48</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>40.0;10.0;10.0;10.0</additional_attributes>
@@ -1486,10 +1318,10 @@ deleteTool(barcode : String)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>858</x>
-      <y>147</y>
-      <w>18</w>
-      <h>9</h>
+      <x>2496</x>
+      <y>392</y>
+      <w>48</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
@@ -1497,10 +1329,10 @@ deleteTool(barcode : String)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>912</x>
-      <y>171</y>
-      <w>9</w>
-      <h>39</h>
+      <x>2640</x>
+      <y>456</y>
+      <w>24</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
@@ -1508,13 +1340,12 @@ deleteTool(barcode : String)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>978</x>
-      <y>261</y>
-      <w>75</w>
-      <h>54</h>
+      <x>2816</x>
+      <y>696</y>
+      <w>200</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>tools[i] : Tool
->>>>>>> Stashed changes
 -
 -name : String
 -id : String
@@ -1527,44 +1358,36 @@ deleteTool(barcode : String)
 -
 getBarcode():String
 
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2940</x><y>890</y><w>190</w><h>100</h></coordinates><panel_attributes>loans[i] : Loan
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>882</x>
-      <y>267</y>
-      <w>57</w>
-      <h>30</h>
+      <x>2560</x>
+      <y>712</y>
+      <w>152</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>loans[i] : Loan
->>>>>>> Stashed changes
 -
 -startDate : LocalDate
 -endDate : LocalDate
 -toolCondition : String
 -
 
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>3260</x><y>670</y><w>230</w><h>170</h></coordinates><panel_attributes>                                                 1
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>978</x>
-      <y>201</y>
-      <w>69</w>
-      <h>51</h>
+      <x>2816</x>
+      <y>536</y>
+      <w>184</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>                                                 1
->>>>>>> Stashed changes
 ToolContainer
 -
 -tools: ArrayList&lt;Tool&gt;
@@ -1574,44 +1397,34 @@ ToolContainer
 _+getInstance() : ToolContainer_
 +findTool(barcode : String)
 +addTool(tool : Tool)
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>3310</x><y>210</y><w>230</w><h>120</h></coordinates><panel_attributes>ToolUI
-=======
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>993</x>
-      <y>63</y>
-      <w>69</w>
-      <h>36</h>
+      <x>2856</x>
+      <y>168</y>
+      <w>184</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>ToolMenu
->>>>>>> Stashed changes
 -
 -toolController : ToolController
 -
 +createTool(): void
 +findTool(): void
 +updateTool(): void
-<<<<<<< Updated upstream
-+deleteTool(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>3050</x><y>310</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>3400</x><y>320</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>3380</x><y>600</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>3370</x><y>830</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>4050</x><y>1480</y><w>100</w><h>30</h></coordinates><panel_attributes>_:ToolUI_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>4040</x><y>1740</y><w>100</w><h>30</h></coordinates><panel_attributes>_:ToolCtr_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>3590</x><y>1970</y><w>100</w><h>30</h></coordinates><panel_attributes>_i:Item</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>4200</x><y>1980</y><w>130</w><h>30</h></coordinates><panel_attributes>_:ItemContainer_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>3800</x><y>1470</y><w>270</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
-1:createTool()
-2:updateTool()
-3:deleteTool()</panel_attributes><additional_attributes>250;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>4080</x><y>1500</y><w>460</w><h>260</h></coordinates><panel_attributes>lt=&lt;-
-=======
 +deleteTool(): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>915</x>
-      <y>93</y>
-      <w>9</w>
-      <h>42</h>
+      <x>2648</x>
+      <y>248</y>
+      <w>24</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
@@ -1619,10 +1432,10 @@ _+getInstance() : ToolContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1020</x>
-      <y>96</y>
-      <w>9</w>
-      <h>24</h>
+      <x>2928</x>
+      <y>256</y>
+      <w>24</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
@@ -1630,10 +1443,10 @@ _+getInstance() : ToolContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1014</x>
-      <y>180</y>
-      <w>9</w>
-      <h>27</h>
+      <x>2912</x>
+      <y>480</y>
+      <w>24</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
@@ -1641,10 +1454,10 @@ _+getInstance() : ToolContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1011</x>
-      <y>249</y>
-      <w>9</w>
-      <h>18</h>
+      <x>2904</x>
+      <y>664</y>
+      <w>24</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -1652,10 +1465,10 @@ _+getInstance() : ToolContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1215</x>
-      <y>444</y>
-      <w>30</w>
-      <h>9</h>
+      <x>3448</x>
+      <y>1184</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:ToolUI_</panel_attributes>
     <additional_attributes/>
@@ -1663,10 +1476,10 @@ _+getInstance() : ToolContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1212</x>
-      <y>522</y>
-      <w>30</w>
-      <h>9</h>
+      <x>3440</x>
+      <y>1392</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:ToolCtr_</panel_attributes>
     <additional_attributes/>
@@ -1674,10 +1487,10 @@ _+getInstance() : ToolContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1077</x>
-      <y>591</y>
-      <w>30</w>
-      <h>9</h>
+      <x>3080</x>
+      <y>1576</y>
+      <w>80</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_i:Item</panel_attributes>
     <additional_attributes/>
@@ -1685,10 +1498,10 @@ _+getInstance() : ToolContainer_
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1260</x>
-      <y>594</y>
-      <w>39</w>
-      <h>9</h>
+      <x>3568</x>
+      <y>1584</y>
+      <w>104</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>_:ItemContainer_</panel_attributes>
     <additional_attributes/>
@@ -1696,10 +1509,10 @@ _+getInstance() : ToolContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1140</x>
-      <y>441</y>
-      <w>81</w>
-      <h>18</h>
+      <x>3248</x>
+      <y>1176</y>
+      <w>216</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 1:createTool()
@@ -1710,35 +1523,28 @@ _+getInstance() : ToolContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1224</x>
-      <y>450</y>
-      <w>159</w>
-      <h>78</h>
+      <x>3472</x>
+      <y>1200</y>
+      <w>424</w>
+      <h>208</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
->>>>>>> Stashed changes
 1.1:t = createTool(id : String, Name : String, description : String, 
             barcode : String, location : String, placement : String, 
             quantity : String, pricePerDay : double)
 2.1:updateTool(oldBarcode : String, id : String, Name : String, description : String, 
       barcode : String, location : String, placement : String, 
       quantity : String, pricePerDay : double)
-<<<<<<< Updated upstream
-3.1:deleteTool(barcode : String)</panel_attributes><additional_attributes>10;240;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>4080</x><y>1760</y><w>380</w><h>240</h></coordinates><panel_attributes>lt=&lt;-
-1.1.2:addTool(t : Tool)
-2.1.1:findTool(oldBarcode : String)
-3.1.1:deleteTool(barcode : String)</panel_attributes><additional_attributes>180;220;180;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>3630</x><y>1760</y><w>480</w><h>230</h></coordinates><panel_attributes>lt=&lt;-
-=======
 3.1:deleteTool(barcode : String)</panel_attributes>
     <additional_attributes>10.0;240.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1224</x>
-      <y>528</y>
-      <w>123</w>
-      <h>72</h>
+      <x>3472</x>
+      <y>1408</y>
+      <w>328</w>
+      <h>192</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 1.1.2:addTool(t : Tool)
@@ -1749,13 +1555,12 @@ _+getInstance() : ToolContainer_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1089</x>
-      <y>528</y>
-      <w>144</w>
-      <h>69</h>
+      <x>3112</x>
+      <y>1408</y>
+      <w>384</w>
+      <h>184</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
->>>>>>> Stashed changes
 1.1.1:t = &lt;&lt;createTool&gt;&gt;(id : String, Name : String, description : String, 
                barcode : String, location : String, placement : String, 
                quantity : String, pricePerDay : String)
@@ -1767,24 +1572,16 @@ _+getInstance() : ToolContainer_
 2.1.7:setPlacement(placement : String)
 2.1.8:setQuantity(quantity : String)
 2.1.9:setPrice(pricePerDay : double)
-<<<<<<< Updated upstream
-</panel_attributes><additional_attributes>10;210;10;10;460;10</additional_attributes></element><element><id>Relation</id><coordinates><x>3680</x><y>1970</y><w>540</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
-
-
-2.1.1.1:*[i=1..n]p=getBarcode():String
-3.1.1.1:*[i=1..n]p=getBarcode():String</panel_attributes><additional_attributes>10;20;520;20</additional_attributes></element><element><id>Relation</id><coordinates><x>3030</x><y>840</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLActor</id><coordinates><x>560</x><y>2190</y><w>60</w><h>110</h></coordinates><panel_attributes>Actor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>810</x><y>2040</y><w>120</w><h>40</h></coordinates><panel_attributes>SALG	</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>810</x><y>2090</y><w>120</w><h>40</h></coordinates><panel_attributes>KASSESALG</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>810</x><y>2140</y><w>130</w><h>40</h></coordinates><panel_attributes>CRUD COSTUMER</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>810</x><y>2190</y><w>120</w><h>40</h></coordinates><panel_attributes>CRUD ITEM</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>810</x><y>2240</y><w>120</w><h>40</h></coordinates><panel_attributes>CRUD TOOL</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>810</x><y>2290</y><w>120</w><h>40</h></coordinates><panel_attributes>UDLÅN TOOL</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>810</x><y>2340</y><w>120</w><h>40</h></coordinates><panel_attributes>AFLEVER TOOL</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>810</x><y>2390</y><w>120</w><h>40</h></coordinates><panel_attributes>RETURNER ITEM</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>710</x><y>2010</y><w>330</w><h>440</h></coordinates><panel_attributes>System
-halign=left</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>1860</y><w>140</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>2050</y><w>240</w><h>230</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;210;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>1900</y><w>140</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>1920</y><w>140</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>1900</y><w>140</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>2100</y><w>240</w><h>180</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;160;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>2150</y><w>240</w><h>130</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;110;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>2200</y><w>240</w><h>80</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;60;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>2240</y><w>240</w><h>40</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>2250</y><w>240</w><h>80</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;220;60</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>2250</y><w>240</w><h>130</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;220;110</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>2250</y><w>240</w><h>170</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;10;220;150</additional_attributes></element></diagram>
-=======
 </panel_attributes>
     <additional_attributes>10.0;210.0;10.0;10.0;460.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1104</x>
-      <y>591</y>
-      <w>162</w>
-      <h>24</h>
+      <x>3152</x>
+      <y>1576</y>
+      <w>432</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 
@@ -1796,10 +1593,10 @@ halign=left</panel_attributes><additional_attributes></additional_attributes></e
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>909</x>
-      <y>252</y>
-      <w>9</w>
-      <h>21</h>
+      <x>2632</x>
+      <y>672</y>
+      <w>24</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -1807,10 +1604,10 @@ halign=left</panel_attributes><additional_attributes></additional_attributes></e
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>168</x>
-      <y>657</y>
-      <w>18</w>
-      <h>33</h>
+      <x>656</x>
+      <y>1752</y>
+      <w>48</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>Actor</panel_attributes>
     <additional_attributes/>
@@ -1818,10 +1615,10 @@ halign=left</panel_attributes><additional_attributes></additional_attributes></e
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>243</x>
-      <y>612</y>
-      <w>36</w>
-      <h>12</h>
+      <x>856</x>
+      <y>1632</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>SALG	</panel_attributes>
     <additional_attributes/>
@@ -1829,10 +1626,10 @@ halign=left</panel_attributes><additional_attributes></additional_attributes></e
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>243</x>
-      <y>627</y>
-      <w>36</w>
-      <h>12</h>
+      <x>856</x>
+      <y>1672</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>KASSESALG</panel_attributes>
     <additional_attributes/>
@@ -1840,10 +1637,10 @@ halign=left</panel_attributes><additional_attributes></additional_attributes></e
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>243</x>
-      <y>642</y>
-      <w>39</w>
-      <h>12</h>
+      <x>856</x>
+      <y>1712</y>
+      <w>104</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>CRUD COSTUMER</panel_attributes>
     <additional_attributes/>
@@ -1851,10 +1648,10 @@ halign=left</panel_attributes><additional_attributes></additional_attributes></e
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>243</x>
-      <y>657</y>
-      <w>36</w>
-      <h>12</h>
+      <x>856</x>
+      <y>1752</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>CRUD ITEM</panel_attributes>
     <additional_attributes/>
@@ -1862,10 +1659,10 @@ halign=left</panel_attributes><additional_attributes></additional_attributes></e
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>243</x>
-      <y>672</y>
-      <w>36</w>
-      <h>12</h>
+      <x>856</x>
+      <y>1792</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>CRUD TOOL</panel_attributes>
     <additional_attributes/>
@@ -1873,10 +1670,10 @@ halign=left</panel_attributes><additional_attributes></additional_attributes></e
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>243</x>
-      <y>687</y>
-      <w>36</w>
-      <h>12</h>
+      <x>856</x>
+      <y>1832</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>UDLÅN TOOL</panel_attributes>
     <additional_attributes/>
@@ -1884,10 +1681,10 @@ halign=left</panel_attributes><additional_attributes></additional_attributes></e
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>243</x>
-      <y>702</y>
-      <w>36</w>
-      <h>12</h>
+      <x>856</x>
+      <y>1872</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>AFLEVER TOOL</panel_attributes>
     <additional_attributes/>
@@ -1895,10 +1692,10 @@ halign=left</panel_attributes><additional_attributes></additional_attributes></e
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>243</x>
-      <y>717</y>
-      <w>36</w>
-      <h>12</h>
+      <x>856</x>
+      <y>1912</y>
+      <w>96</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>RETURNER ITEM</panel_attributes>
     <additional_attributes/>
@@ -1906,10 +1703,10 @@ halign=left</panel_attributes><additional_attributes></additional_attributes></e
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>213</x>
-      <y>603</y>
-      <w>99</w>
-      <h>132</h>
+      <x>776</x>
+      <y>1608</y>
+      <w>264</w>
+      <h>352</h>
     </coordinates>
     <panel_attributes>System
 halign=left</panel_attributes>
@@ -1918,10 +1715,10 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>81</x>
-      <y>558</y>
-      <w>42</w>
-      <h>12</h>
+      <x>424</x>
+      <y>1488</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
@@ -1929,10 +1726,10 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>177</x>
-      <y>615</y>
-      <w>72</w>
-      <h>69</h>
+      <x>680</x>
+      <y>1640</y>
+      <w>192</w>
+      <h>184</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;210.0;220.0;10.0</additional_attributes>
@@ -1940,10 +1737,10 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>93</x>
-      <y>570</y>
-      <w>42</w>
-      <h>12</h>
+      <x>456</x>
+      <y>1520</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
@@ -1951,10 +1748,10 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>99</x>
-      <y>576</y>
-      <w>42</w>
-      <h>12</h>
+      <x>472</x>
+      <y>1536</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
@@ -1962,10 +1759,10 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>93</x>
-      <y>570</y>
-      <w>42</w>
-      <h>12</h>
+      <x>456</x>
+      <y>1520</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
@@ -1973,10 +1770,10 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>177</x>
-      <y>630</y>
-      <w>72</w>
-      <h>54</h>
+      <x>680</x>
+      <y>1680</y>
+      <w>192</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;160.0;220.0;10.0</additional_attributes>
@@ -1984,10 +1781,10 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>177</x>
-      <y>645</y>
-      <w>72</w>
-      <h>39</h>
+      <x>680</x>
+      <y>1720</y>
+      <w>192</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;110.0;220.0;10.0</additional_attributes>
@@ -1995,10 +1792,10 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>177</x>
-      <y>660</y>
-      <w>72</w>
-      <h>24</h>
+      <x>680</x>
+      <y>1760</y>
+      <w>192</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;60.0;220.0;10.0</additional_attributes>
@@ -2006,10 +1803,10 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>177</x>
-      <y>672</y>
-      <w>72</w>
-      <h>12</h>
+      <x>680</x>
+      <y>1792</y>
+      <w>192</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
@@ -2017,10 +1814,10 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>177</x>
-      <y>675</y>
-      <w>72</w>
-      <h>24</h>
+      <x>680</x>
+      <y>1800</y>
+      <w>192</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;220.0;60.0</additional_attributes>
@@ -2028,10 +1825,10 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>177</x>
-      <y>675</y>
-      <w>72</w>
-      <h>39</h>
+      <x>680</x>
+      <y>1800</y>
+      <w>192</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;220.0;110.0</additional_attributes>
@@ -2039,13 +1836,12 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>177</x>
-      <y>675</y>
-      <w>72</w>
-      <h>51</h>
+      <x>680</x>
+      <y>1800</y>
+      <w>192</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;220.0;150.0</additional_attributes>
   </element>
 </diagram>
->>>>>>> Stashed changes
