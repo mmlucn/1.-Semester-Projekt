@@ -12,8 +12,9 @@ public class Order
     private String shipmentCity;
     private double total = 0.0;
     private double vat;
+    private Customer customer;
     
-    public Order(ArrayList<OrderLine> orderLines, LocalDate shipmentDate, String shipmentAddress, String shipmentZip, String shipmentCity)
+    public Order(ArrayList<OrderLine> orderLines, LocalDate shipmentDate, String shipmentAddress, String shipmentZip, String shipmentCity, Customer customer)
     {
         this.setOrderDate(LocalDate.now());
         this.setOrderLines(orderLines);

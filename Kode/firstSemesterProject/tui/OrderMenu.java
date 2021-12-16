@@ -2,6 +2,8 @@ package tui;
 
 import java.util.ArrayList;
 
+import org.w3c.dom.Text;
+
 import controller.OrderController;
 import controller.PersonController;
 import model.OrderLine;;
@@ -29,9 +31,12 @@ public class OrderMenu {
     }
 
     private void createOrder() {
-        
         boolean shouldRun = true;
         ArrayList<OrderLine> orderLines = new ArrayList<>();
+        String shipAddr;
+        String shipZip;
+        String shipCity;
+        String customerPhone =TextInput.inputString("Indtast tlf. nr. på kunde (999 for kontant)");
         while (shouldRun){
             String input = TextInput.inputString("Scan produkt");
             if (!input.equals("")){
@@ -49,7 +54,10 @@ public class OrderMenu {
             }
         }
         System.out.println((orderLines.size() + (orderLines.size() > 1 ? " produkter" : " produkt") + " tilføjet"));
-        //orderController.createOrder(items, shipmentDate, shipmentAddress, shipmentZip, shipmentCity, customerPhone)
+        shipAddr = TextInput.inputString("Indtast addresse");
+        shipZip = TextInput.inputString("Indtast postnummer");
+        shipCity = TextInput.inputString("Indtast by");
+        orderController.createOrder(orderLines, "24-12-2021", shipAddr, shipZip, shipCity, customerPhone);
         
     }
 

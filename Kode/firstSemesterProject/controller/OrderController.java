@@ -2,29 +2,23 @@ package controller;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeFormatterBuilder;
 import java.util.ArrayList;
 
-import model.Item;
-import model.Order;
-import model.OrderContainer;
-import model.OrderLine;
+import model.*;
 
 public class OrderController {
     private OrderContainer orderContainer;
     private PersonController personController;
-    private ItemController itemController;
 
     public OrderController() {
         orderContainer = OrderContainer.getInstance();
         personController = new PersonController();
-        itemController = new ItemController();
     }
 
-    public Order createOrder(ArrayList<OrderLine> orderLines, String shipmentDate, String shipmentAddress, String shipmentZip, String shipmentCity){
+    public Order createOrder(ArrayList<OrderLine> orderLines, String shipmentDate, String shipmentAddress, String shipmentZip, String shipmentCity, String customerPhone){
         LocalDate shipDate = LocalDate.parse(shipmentDate, DateTimeFormatter.ofPattern("dd-MM-yyyy"));
-
-        Order newOrder = new Order(orderLines, shipDate, shipmentAddress, shipmentZip, shipmentCity);
+        Customer customer = personController.findCustomer(customerPhone);
+        Order newOrder = new Order(orderLines, shipDate, shipmentAddress, shipmentZip, shipmentCity, customer);
         orderContainer.addOrder(newOrder);
         return newOrder;
     }

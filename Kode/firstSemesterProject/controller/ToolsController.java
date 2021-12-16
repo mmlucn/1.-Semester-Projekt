@@ -7,7 +7,7 @@ public class ToolsController{
 
     public ToolsController()
     {
-        toolsContainer = toolsContainer.getInstance();
+        toolsContainer = ToolsContainer.getInstance();
     }
     
     public Tools findTools(String barcode){

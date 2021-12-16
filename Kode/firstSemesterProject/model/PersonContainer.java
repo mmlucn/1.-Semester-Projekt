@@ -5,11 +5,12 @@ import java.util.HashMap;
 public class PersonContainer{
     private static PersonContainer instance;
     private ArrayList<SalesAssistent> salesAssistents;
-    private HashMap<String, Customer> customers;
+    private HashMap<String, Customer> customers; //<key: tlf,val: Customer>
 
     private PersonContainer(){
         salesAssistents = new ArrayList<>();  
         customers = new HashMap<String, Customer>();
+        customers.put("999", new Customer("Kontant", null, null, null, null, null, null, null));
     }
 
     public static PersonContainer getInstance(){

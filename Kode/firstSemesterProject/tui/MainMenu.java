@@ -6,10 +6,12 @@ public class MainMenu {
 
     private ItemMenu itemMenu;
     private OrderMenu orderMenu;
+    private PersonMenu personMenu;
 
         public MainMenu() {
             itemMenu = new ItemMenu();
             orderMenu = new OrderMenu();
+            
         }
 
         public void start(){
