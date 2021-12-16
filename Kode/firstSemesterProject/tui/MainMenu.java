@@ -7,6 +7,7 @@ public class MainMenu {
     private ItemMenu itemMenu;
     private OrderMenu orderMenu;
     private PersonMenu personMenu;
+    private LoanMenu loanMenu;
 
         public MainMenu() {
             itemMenu = new ItemMenu();
@@ -25,9 +26,12 @@ public class MainMenu {
                     orderMenu.menu();
                 }
                 else if(choice == 3){
-                    
+                    personMenu.menu();
                 }
                 else if(choice == 4){
+                    loanMenu.menu();
+                }
+                else if(choice == 5){
                     TestData.addTestData();
                 }
                 else{
@@ -41,6 +45,7 @@ public class MainMenu {
             menu.addOption("Produkt menu");
             menu.addOption("Order menu");
             menu.addOption("Kunde menu");
+            menu.addOption("Låne menu");
             menu.addOption("Tilføj test data");
             return menu.prompt();
         }
