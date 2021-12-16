@@ -8,11 +8,9 @@ public class PersonController{
         personContainer = PersonContainer.getInstance();
     }
 
-    public void createCustomer(String firstName, String lastName, String address, 
-    String zipCode, String city, String phoneNumber, String companyName, String companyCode){ 
-        Customer c = new Customer(firstName, lastName, address, zipCode, city, 
-        phoneNumber, companyName, companyCode);
-        personContainer.addCustomer(c);
+    public void createCustomer(String firstName, String lastName, String address, String zipCode, String city, String phoneNumber, String companyName, String companyCode){ 
+    Customer c = new Customer(firstName, lastName, address, zipCode, city, phoneNumber, companyName, companyCode);
+        personContainer.addCustomer(c, phoneNumber);
     }
 
     public Customer findCustomer(String phoneNumber){

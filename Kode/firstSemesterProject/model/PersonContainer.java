@@ -5,12 +5,11 @@ import java.util.HashMap;
 public class PersonContainer{
     private static PersonContainer instance;
     private ArrayList<SalesAssistent> salesAssistents;
-    private HashMap<Customer,phoneNumber> customers;
-    private Customer customer;
+    private HashMap<String, Customer> customers;
 
-    public PersonContainer(){
+    private PersonContainer(){
         salesAssistents = new ArrayList<>();  
-        customers = new HashMap<Customer,phoneNumber>();
+        customers = new HashMap<String, Customer>();
     }
 
     public static PersonContainer getInstance(){
@@ -20,40 +19,24 @@ public class PersonContainer{
         return instance;
     }
 
-    public void addCustomer(Customer customer){
-        customers.add(customer);
+    public void addCustomer(Customer customer, String phoneNumber){
+        customers.put(phoneNumber, customer);
     }
 
     public boolean deleteCustomer(String phoneNumber){
         boolean found = false;
         Customer c = findCustomer(phoneNumber);
         if(c!= null){
-            customers.remove(c);
+            customers.remove(phoneNumber);
             found = true;
         }
         return found;
     }
 
     public Customer findCustomer(String phoneNumber){
-        Customer c = null;      
-        int index = 0;     
-        boolean found = false; 
-        while(index < customers.size() && !found){
-            c = customers.get(index); 
-            if(c.getPhoneNumber().equals(phoneNumber)){ 
-                found = true;
-            }
-            else{
-                index++; 
-            }
-        } 
-        if (found){
-            return customers.get(index);
-        }
-        else{   
-            return null;
-        }
-
+        Customer c = null;
+        c = customers.get(phoneNumber);
+        return c;
     }
     
     public void addSalesAssistent(SalesAssistent salesAssistent){
@@ -63,7 +46,7 @@ public class PersonContainer{
     public boolean deleteSalesAssistent(String id){
         boolean found = false;
         SalesAssistent sa = findSalesAssistent(id);
-        if(sa!= null){
+        if(sa != null){
             salesAssistents.remove(sa);
             found = true;
         }

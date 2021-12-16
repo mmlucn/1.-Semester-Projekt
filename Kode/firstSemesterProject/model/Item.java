@@ -16,8 +16,8 @@ public class Item
     private String barcode;
     private String location;
     private String placement;
-    private Double quantity;
-    private Double price;
+    private double quantity;
+    private double price;
 
     /**
      * Constructor for objects of class Item
@@ -45,5 +45,9 @@ public class Item
     
     public void changePlacement(String newPlacement){
         this.placement = newPlacement;
+    }
+    
+    public double getPrice(){
+        return price;
     }
 }

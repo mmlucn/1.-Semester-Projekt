@@ -21,7 +21,7 @@ public class SalesAssistent extends Person{
         return totalSales;
     }
     
-    public void setDepartment(String Department){
+    public void setDepartment(String department){
         this.department = department;
     }
     
