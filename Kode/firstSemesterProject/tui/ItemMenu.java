@@ -72,8 +72,8 @@ public class ItemMenu
     }
 
     public void findItem(){
-        String barcode = TextInput.inputString("Indtast stregkode/Scan stregkode");
-        System.out.println(item);
+        // String barcode = TextInput.inputString("Indtast stregkode/Scan stregkode");
+        // System.out.println(item);
         
     }
 
