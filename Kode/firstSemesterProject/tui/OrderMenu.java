@@ -1,12 +1,9 @@
 package tui;
 
 import java.util.ArrayList;
-
-import org.w3c.dom.Text;
-
 import controller.OrderController;
 import controller.PersonController;
-import model.OrderLine;;
+import model.OrderLine;
 
 public class OrderMenu {
 

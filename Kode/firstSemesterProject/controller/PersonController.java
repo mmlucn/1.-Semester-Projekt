@@ -17,6 +17,17 @@ public class PersonController{
         return personContainer.findCustomer(phoneNumber);
     }
 
+    public void printCostumer(String phonenNumber){
+        Customer c = findCustomer(phonenNumber);
+        System.out.println("Fornavn: " + c.getFirstName());
+        System.out.println("Efternavn: " + c.getLastName());
+        System.out.println("Addresse: " + c.getAddress());
+        System.out.println("Postnummer: " + c.getZipCode());
+        System.out.println("By: " + c.getCity());
+        System.out.println("Tlf: " + c.getPhoneNumber());
+
+    }
+
     public void updateCustomer(Customer customerToUpdate, String address, 
     String zipCode, String city, String phoneNumber){
         if (address != null){

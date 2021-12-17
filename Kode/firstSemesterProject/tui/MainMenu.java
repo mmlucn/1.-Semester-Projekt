@@ -12,7 +12,7 @@ public class MainMenu {
         public MainMenu() {
             itemMenu = new ItemMenu();
             orderMenu = new OrderMenu();
-            
+            personMenu = new PersonMenu();
         }
 
         public void start(){
