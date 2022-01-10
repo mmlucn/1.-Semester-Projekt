@@ -1,7 +1,5 @@
 package controller;
 import model.*;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 
 public class LoanController{
@@ -10,20 +8,9 @@ public class LoanController{
     private ToolsContainer toolsContainer;
     
     public LoanController(){
-        loanContainer = loanContainer.getInstance();
+
+        loanContainer = LoanContainer.getInstance();
         personcontainer = PersonContainer.getInstance();
         toolsContainer = ToolsContainer.getInstance();
     }
-    
-    // public Loan createLoan(Tools tools, LocalDate startDate, LocalDate endDate, String ToolsCondition){
-        
-    // }
-    
-    // public void returnTool(Tools tools){
-    // }
-    
-    
-
-    
-    
 }

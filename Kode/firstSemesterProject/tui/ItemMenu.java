@@ -72,9 +72,13 @@ public class ItemMenu
     }
 
     public void findItem(){
+<<<<<<< Updated upstream
         // String barcode = TextInput.inputString("Indtast stregkode/Scan stregkode");
         // System.out.println(item);
         
+=======
+        //String barcode = TextInput.inputString("Indtast stregkode/Scan stregkode");
+>>>>>>> Stashed changes
     }
 
     public void updateItem(){

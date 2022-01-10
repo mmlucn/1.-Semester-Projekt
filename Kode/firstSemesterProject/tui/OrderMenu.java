@@ -55,7 +55,6 @@ public class OrderMenu {
         shipZip = TextInput.inputString("Indtast postnummer");
         shipCity = TextInput.inputString("Indtast by");
         orderController.createOrder(orderLines, "24-12-2021", shipAddr, shipZip, shipCity, customerPhone);
-        
     }
 
     private int writeMenu() {
